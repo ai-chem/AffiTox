@@ -2,10 +2,43 @@
 
 *Journal of Cheminformatics* (in review)
 
-**Abstract.** Benchmarks are needed not only to compare computational binding methods, but also to identify which outputs remain informative for a defined decision context. We introduce \benchname{}, a retrospective, target-resolved benchmark comprising experimental $K_i$ records for 16 mechanism-linked safety-relevant proteins, and evaluate five methods across within-target scoring, ranking, screening, and pose-validity axes. Boltz-2 has the largest panel-wide median Pearson correlation with experimental $\mathrm{p}K_i$ ($r=0.55$) and the strongest confirmatory scoring distribution, but performance varies markedly by target; active $\mathrm{nEF}_{10}$ is frequently limited by class balance, weak-binding-end enrichment reveals additional screening failures, and pose validity is only partly aligned with affinity association. These results support \benchname{} as a target-specific, multi-axis framework for evaluating and developing computational binding methods for safety-related screening, while prospective transfer and direct toxicity prediction remain outside the scope of the present study.
+**Abstract.** Evaluating computational binding methods for
+safety-relevant proteins requires understanding how
+well they rank affinities, identify strong and weak
+binders, and predict plausible binding poses.
+We introduce AffiTox, a retrospective benchmark
+of five docking and affinity-prediction methods
+comprising 10711 curated ligand-target records
+with experimental $K_i$ measurements for 16 proteins.
+
+Boltz-2 had the highest within-target Pearson
+correlation with experimental $\mathrm{p}K_i$
+($r=0.55$), although its advantage varied across
+targets and evaluation tasks.
+High active enrichment occurred even when affinity
+correlations were weak, particularly in sets dominated
+by active compounds. Low-affinity enrichment revealed
+ranking limitations that active enrichment alone
+did not capture. Pose validity provided complementary
+information: methods with high pose-validity rates
+could still produce scores that correlated poorly
+with experimental affinity. These findings support
+target-specific evaluation of the prediction task
+for which a method will be used.
+
+Scientific Contribution:
+AffiTox applies screening power to assess how well
+methods recover experimentally defined low-affinity
+compounds at the low-affinity end of their predicted
+rankings. This assessment complements within-target
+scoring power, ranking power, and pose validity.
+The resource provides data and protocols for
+evaluating and developing binding-prediction methods
+for safety-relevant proteins.
+
 
 <p align="center">
-  <img src="docs/assets/affitox.png"
+  <img src="docs/assets/affitox_panel.png"
        alt="Overview of the AffiTox benchmark dataset, evaluated methods, and analysis axes"
        width="100%">
 </p>
@@ -76,7 +109,7 @@ Pins below were checked against a live conda env named `docking` (Python 3.10.18
 ### 1. Clone and conda stack (declared versions)
 
 ```bash
-git clone https://github.com/OlgaKoont/AffiTox.git   # public code, inputs, and analysis tables
+git clone https://github.com/ai-chem/AffiTox.git   # public code, inputs, and analysis tables
 cd AffiTox
 
 conda env create -f environment.yml   # env name: docking; includes CUDA toolkit + mgltools pins
@@ -151,7 +184,7 @@ Unpack paths, zip contents, and `curl` examples: [`docs/zenodo/README.md`](docs/
 
 ```bash
 # full-panel merged tables (record 04, ~5 MiB)
-curl -L -o 04_merged.zip 'https://zenodo.org/records/23214418/files/04_merged.zip?download=1'
+curl -L -o 04_merged.zip 'https://zenodo.org/records/23979579/files/04_merged.zip?download=1'
 unzip 04_merged.zip
 mkdir -p analysis/excluding_2z5x_3mjg/tables
 cp 04_merged/merged_ligands_docking_*.csv analysis/excluding_2z5x_3mjg/tables/
@@ -285,6 +318,6 @@ Konovalova OA, Orlova A, Telepov A, Khrabrov K, Karpushkina I, Shestun P, Kaduri
 
 Code:
 
-Konovalova OA, Orlova A, Telepov A, Khrabrov K, Karpushkina I, Shestun P, Kadurin A, Vinogradov V, Tsypin A, Dmitrenko A. AffiTox. GitHub; 2026. https://github.com/OlgaKoont/AffiTox.
+Konovalova OA, Orlova A, Telepov A, Khrabrov K, Karpushkina I, Shestun P, Kadurin A, Vinogradov V, Tsypin A, Dmitrenko A. AffiTox. GitHub; 2026. https://github.com/ai-chem/AffiTox.
 
 Machine-readable: [`CITATION.cff`](CITATION.cff).

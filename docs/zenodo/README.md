@@ -5,7 +5,7 @@
 [10.5281/zenodo.22007992](https://doi.org/10.5281/zenodo.22007992).
 Community: https://zenodo.org/communities/affitox/
 
-Code: https://github.com/OlgaKoont/AffiTox
+Code: https://github.com/ai-chem/AffiTox
 
 Do **not** cite the restricted historical per-protein zips
 `10.5281/zenodo.20825057`–`067` (old panel including 7awe/2z5x/3mjg).
@@ -192,7 +192,7 @@ Zenodo *Software* DOI exists for tag `v1.0.0`.
 > raw ChEMBL and PDB snapshots, prepared inputs and method weights, frozen
 > docking outputs (split across five deposits because of the 50 GiB/record
 > limit), merged ligand tables, PoseBusters tables, and metrics/PNG figures.
-> Source code is available at https://github.com/OlgaKoont/AffiTox (MIT).
+> Source code is available at https://github.com/ai-chem/AffiTox (MIT).
 > ChEMBL and PDB files remain under their original terms. GPU re-runs of
 > Boltz-2 and DynamicBind are not bit-identical; the docking record is the
 > frozen snapshot used in this study.
@@ -206,7 +206,7 @@ Konovalova OA, Orlova A, Telepov A, Khrabrov K, Karpushkina I, Shestun P, Kaduri
 
 Code (until the software Zenodo archive exists):
 
-Konovalova OA, Orlova A, Telepov A, Khrabrov K, Karpushkina I, Shestun P, Kadurin A, Vinogradov V, Tsypin A, Dmitrenko A. AffiTox. GitHub; 2026. https://github.com/OlgaKoont/AffiTox.
+Konovalova OA, Orlova A, Telepov A, Khrabrov K, Karpushkina I, Shestun P, Kadurin A, Vinogradov V, Tsypin A, Dmitrenko A. AffiTox. GitHub; 2026. https://github.com/ai-chem/AffiTox.
 
 BibTeX is in [`CITATION.cff`](../../CITATION.cff) and
 [`DATA_AVAILABILITY.md`](../DATA_AVAILABILITY.md).

@@ -25,7 +25,7 @@ N_BOOTSTRAP=10 N_PERMUTATION=10 TARGETS=1g5m  analysis smoke
 
 https://help.zenodo.org/docs/github/enable-repository/
 
-Profile → GitHub → Sync now → enable `OlgaKoont/AffiTox`.
+Profile → GitHub → Sync now → enable `ai-chem/AffiTox`.
 
 Keep `CITATION.cff`; do not add `.zenodo.json`.
 

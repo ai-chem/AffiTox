@@ -201,7 +201,7 @@ def main() -> None:
             pdf,
             "AffiTox robustness analysis — code, results, conclusions",
             [
-                "Repository: https://github.com/OlgaKoont/AffiTox",
+                "Repository: https://github.com/ai-chem/AffiTox",
                 "Local clone: /mnt/tank/scratch/okonovalova/AffiTox",
                 "Seed 42. Bootstrap/permutation B = 10,000. Balanced nEF B = 2,000.",
                 "Two identical analysis runs (CSV MD5 00e68d0c74b689ae4bf2845961257903).",

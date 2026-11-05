@@ -16,7 +16,7 @@ from pathlib import Path
 
 API = os.environ.get("ZENODO_API", "https://zenodo.org/api")
 COMMUNITY = os.environ.get("ZENODO_COMMUNITY", "affitox")
-GITHUB = "https://github.com/OlgaKoont/AffiTox"
+GITHUB = "https://github.com/ai-chem/AffiTox"
 MAX_RECORD_GB = 50.0
 
 # Bundles stay under Zenodo 50 GiB/record limit (Jun 2025 packages).

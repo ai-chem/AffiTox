@@ -24,7 +24,7 @@ authors:
     given-names: Artem
   - family-names: Dmitrenko
     given-names: Andrei
-repository-code: "https://github.com/OlgaKoont/AffiTox"
+repository-code: "https://github.com/ai-chem/AffiTox"
 url: "https://doi.org/10.5281/zenodo.22007993"
 license: MIT
 version: "1.0.0"

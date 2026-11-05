@@ -13,7 +13,7 @@ deposits: raw ChEMBL and PDB snapshots; prepared inputs, ligand identifiers and
 method weights; frozen docking outputs (split across five records because Zenodo
 limits a dataset to 50 GiB); merged ligand tables; PoseBusters tables; and
 metrics with PNG figures. Source code is available at
-https://github.com/OlgaKoont/AffiTox under the MIT license. ChEMBL and PDB
+https://github.com/ai-chem/AffiTox under the MIT license. ChEMBL and PDB
 redistributions remain under their original terms. GPU re-runs of Boltz-2 and
 DynamicBind are not bit-identical; the docking deposit is the frozen snapshot
 used in this study.
@@ -26,7 +26,7 @@ Konovalova OA, Orlova A, Telepov A, Khrabrov K, Karpushkina I, Shestun P, Kaduri
 
 Code (replace with the Zenodo Software DOI when `v1.0.0` exists):
 
-Konovalova OA, Orlova A, Telepov A, Khrabrov K, Karpushkina I, Shestun P, Kadurin A, Vinogradov V, Tsypin A, Dmitrenko A. AffiTox. GitHub; 2026. https://github.com/OlgaKoont/AffiTox.
+Konovalova OA, Orlova A, Telepov A, Khrabrov K, Karpushkina I, Shestun P, Kadurin A, Vinogradov V, Tsypin A, Dmitrenko A. AffiTox. GitHub; 2026. https://github.com/ai-chem/AffiTox.
 
 In-text example: “Data are archived on Zenodo [n].”
 
@@ -54,7 +54,7 @@ In-text example: “Data are archived on Zenodo [n].”
   title        = {{AffiTox}},
   year         = {2026},
   publisher    = {GitHub},
-  url          = {https://github.com/OlgaKoont/AffiTox},
+  url          = {https://github.com/ai-chem/AffiTox},
   note         = {Version 1.0.0 source. Software Zenodo DOI to be added after the GitHub release.}
 }
 ```
@@ -64,12 +64,12 @@ In-text example: “Data are archived on Zenodo [n].”
 | Record | DOI |
 |--------|-----|
 | 01 raw ChEMBL+PDB | https://doi.org/10.5281/zenodo.23213812 |
-| 02 prepared + weights | https://doi.org/10.5281/zenodo.23213816 |
-| 03a docking | https://doi.org/10.5281/zenodo.23224051 |
-| 03b docking | https://doi.org/10.5281/zenodo.23225395 |
-| 03c docking | https://doi.org/10.5281/zenodo.23225788 |
-| 03d docking | https://doi.org/10.5281/zenodo.23226603 |
-| 03e docking | https://doi.org/10.5281/zenodo.23227176 |
-| 04 merged tables | https://doi.org/10.5281/zenodo.23214418 |
-| 05 PoseBusters | https://doi.org/10.5281/zenodo.23242334 |
-| 06 metrics + PNG | https://doi.org/10.5281/zenodo.23244623 |
+| 02 prepared + weights | https://doi.org/10.5281/zenodo.23979597 |
+| 03a docking | https://doi.org/10.5281/zenodo.23981992 |
+| 03b docking | https://doi.org/10.5281/zenodo.23982808 |
+| 03c docking | https://doi.org/10.5281/zenodo.23983375 |
+| 03d docking | https://doi.org/10.5281/zenodo.23984015 |
+| 03e docking | https://doi.org/10.5281/zenodo.23984506 |
+| 04 merged tables | https://doi.org/10.5281/zenodo.23979579 |
+| 05 PoseBusters | https://doi.org/10.5281/zenodo.23979721 |
+| 06 metrics + PNG | https://doi.org/10.5281/zenodo.23979767 |

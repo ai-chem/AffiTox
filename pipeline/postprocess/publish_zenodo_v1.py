@@ -34,55 +34,55 @@ NEW_RECORDS = [
     },
     {
         "id": "02_prepared",
-        "deposition_id": 23213816,
+        "deposition_id": 23979597,
         "title": "AffiTox: prepared inputs, ligand_id maps, and method weights (record 02)",
         "pdbs": PANEL,
     },
     {
         "id": "03_docking_03a",
-        "deposition_id": 23224051,
-        "title": "AffiTox: docking outputs (03a of record 03: 3eyg, 4f65, 5lf3, 2v5z)",
+        "deposition_id": 23981992,
+        "title": "AffiTox: docking outputs (03a of record 03: 3eyg, 4f65, 5lf3, 2v5z; panel N=10711)",
         "pdbs": "3eyg, 4f65, 5lf3, 2v5z",
     },
     {
         "id": "03_docking_03b",
-        "deposition_id": 23225395,
-        "title": "AffiTox: docking outputs (03b of record 03: 3jy9, 3lxk)",
+        "deposition_id": 23982808,
+        "title": "AffiTox: docking outputs (03b of record 03: 3jy9, 3lxk; panel N=10711)",
         "pdbs": "3jy9, 3lxk",
     },
     {
         "id": "03_docking_03c",
-        "deposition_id": 23225788,
-        "title": "AffiTox: docking outputs (03c of record 03: 5mo4, 6gqj, 4zau)",
+        "deposition_id": 23983375,
+        "title": "AffiTox: docking outputs (03c of record 03: 5mo4, 6gqj, 4zau; panel N=10711)",
         "pdbs": "5mo4, 6gqj, 4zau",
     },
     {
         "id": "03_docking_03d",
-        "deposition_id": 23226603,
-        "title": "AffiTox: docking outputs (03d of record 03: 7kk3, 5jkv, 4tz4)",
+        "deposition_id": 23984015,
+        "title": "AffiTox: docking outputs (03d of record 03: 7kk3, 5jkv, 4tz4; panel N=10711)",
         "pdbs": "7kk3, 5jkv, 4tz4",
     },
     {
         "id": "03_docking_03e",
-        "deposition_id": 23227176,
-        "title": "AffiTox: docking outputs (03e of record 03: 4ase, 6jok, 11ue, 1g5m)",
+        "deposition_id": 23984506,
+        "title": "AffiTox: docking outputs (03e of record 03: 4ase, 6jok, 11ue, 1g5m; panel N=10711)",
         "pdbs": "4ase, 6jok, 11ue, 1g5m",
     },
     {
         "id": "04_merged",
-        "deposition_id": 23214418,
+        "deposition_id": 23979579,
         "title": "AffiTox: merged ligand_id tables (record 04)",
         "pdbs": PANEL,
     },
     {
         "id": "05_posebusters",
-        "deposition_id": 23242334,
+        "deposition_id": 23979721,
         "title": "AffiTox: PoseBusters tables (record 05)",
         "pdbs": PANEL,
     },
     {
         "id": "06_metrics_figures",
-        "deposition_id": 23244623,
+        "deposition_id": 23979767,
         "title": "AffiTox: metrics tables and PNG figures (record 06)",
         "pdbs": PANEL,
     },
@@ -155,7 +155,7 @@ def refresh_06(client: Client) -> None:
     zip_path = ROOT / "release" / "zenodo" / "payloads" / "06_metrics_figures.zip"
     if not zip_path.is_file():
         raise SystemExit(f"missing {zip_path}")
-    dep = get_dep(client, 23244623)
+    dep = get_dep(client, 23979767)
     if dep.get("submitted"):
         print("06 already published; skip zip replace")
         return

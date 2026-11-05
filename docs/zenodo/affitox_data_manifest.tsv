@@ -1,22 +1,22 @@
 record	zenodo_record	doi	record_title	filename	size_bytes
 01_raw	23213812	10.5281/zenodo.23213812	AffiTox: raw ChEMBL extracts and PDB structures (record 01)	01_raw.zip	36817987
-02_prepared	23213816	10.5281/zenodo.23213816	AffiTox: prepared inputs, ligand_id maps, and method weights (record 02)	02_prepared.zip	4892736668
-03_docking_03a	23224051	10.5281/zenodo.23224051	AffiTox: docking outputs (03a of record 03: 3eyg, 4f65, 5lf3, 2v5z)	results_3eyg.zip	35684852018
-03_docking_03a	23224051	10.5281/zenodo.23224051	AffiTox: docking outputs (03a of record 03: 3eyg, 4f65, 5lf3, 2v5z)	results_5lf3.zip	326806992
-03_docking_03a	23224051	10.5281/zenodo.23224051	AffiTox: docking outputs (03a of record 03: 3eyg, 4f65, 5lf3, 2v5z)	results_4f65.zip	2134299037
-03_docking_03a	23224051	10.5281/zenodo.23224051	AffiTox: docking outputs (03a of record 03: 3eyg, 4f65, 5lf3, 2v5z)	results_2v5z.zip	2208805822
-03_docking_03b	23225395	10.5281/zenodo.23225395	AffiTox: docking outputs (03b of record 03: 3jy9, 3lxk)	results_3jy9.zip	31822629100
-03_docking_03b	23225395	10.5281/zenodo.23225395	AffiTox: docking outputs (03b of record 03: 3jy9, 3lxk)	results_3lxk.zip	11834756320
-03_docking_03c	23225788	10.5281/zenodo.23225788	AffiTox: docking outputs (03c of record 03: 5mo4, 6gqj, 4zau)	results_5mo4.zip	20423889948
-03_docking_03c	23225788	10.5281/zenodo.23225788	AffiTox: docking outputs (03c of record 03: 5mo4, 6gqj, 4zau)	results_6gqj.zip	19656402415
-03_docking_03c	23225788	10.5281/zenodo.23225788	AffiTox: docking outputs (03c of record 03: 5mo4, 6gqj, 4zau)	results_4zau.zip	3767625508
-03_docking_03d	23226603	10.5281/zenodo.23226603	AffiTox: docking outputs (03d of record 03: 7kk3, 5jkv, 4tz4)	results_4tz4.zip	5092295064
-03_docking_03d	23226603	10.5281/zenodo.23226603	AffiTox: docking outputs (03d of record 03: 7kk3, 5jkv, 4tz4)	results_7kk3.zip	20584115065
-03_docking_03d	23226603	10.5281/zenodo.23226603	AffiTox: docking outputs (03d of record 03: 7kk3, 5jkv, 4tz4)	results_5jkv.zip	14475743902
-03_docking_03e	23227176	10.5281/zenodo.23227176	AffiTox: docking outputs (03e of record 03: 4ase, 6jok, 11ue, 1g5m)	results_1g5m.zip	3024139661
-03_docking_03e	23227176	10.5281/zenodo.23227176	AffiTox: docking outputs (03e of record 03: 4ase, 6jok, 11ue, 1g5m)	results_4ase.zip	15064610833
-03_docking_03e	23227176	10.5281/zenodo.23227176	AffiTox: docking outputs (03e of record 03: 4ase, 6jok, 11ue, 1g5m)	results_11ue.zip	4697484441
-03_docking_03e	23227176	10.5281/zenodo.23227176	AffiTox: docking outputs (03e of record 03: 4ase, 6jok, 11ue, 1g5m)	results_6jok.zip	9369715196
-04_merged	23214418	10.5281/zenodo.23214418	AffiTox: merged ligand_id tables (record 04)	04_merged.zip	5544690
-05_posebusters	23242334	10.5281/zenodo.23242334	AffiTox: PoseBusters tables (record 05)	05_posebusters.zip	10239424
-06_metrics_figures	23244623	10.5281/zenodo.23244623	AffiTox: metrics tables and PNG figures (record 06)	06_metrics_figures.zip	144401721
+02_prepared	23979597	10.5281/zenodo.23979597	AffiTox: prepared inputs, ligand_id maps, and method weights (record 02)	02_prepared.zip	4891861629
+03_docking_03a	23981992	10.5281/zenodo.23981992	AffiTox: docking outputs (03a of record 03: 3eyg, 4f65, 5lf3, 2v5z; panel N=10711)	results_3eyg.zip	35575567696
+03_docking_03a	23981992	10.5281/zenodo.23981992	AffiTox: docking outputs (03a of record 03: 3eyg, 4f65, 5lf3, 2v5z; panel N=10711)	results_5lf3.zip	308250782
+03_docking_03a	23981992	10.5281/zenodo.23981992	AffiTox: docking outputs (03a of record 03: 3eyg, 4f65, 5lf3, 2v5z; panel N=10711)	results_4f65.zip	2129135070
+03_docking_03a	23981992	10.5281/zenodo.23981992	AffiTox: docking outputs (03a of record 03: 3eyg, 4f65, 5lf3, 2v5z; panel N=10711)	results_2v5z.zip	1911464419
+03_docking_03b	23982808	10.5281/zenodo.23982808	AffiTox: docking outputs (03b of record 03: 3jy9, 3lxk; panel N=10711)	results_3jy9.zip	31754177841
+03_docking_03b	23982808	10.5281/zenodo.23982808	AffiTox: docking outputs (03b of record 03: 3jy9, 3lxk; panel N=10711)	results_3lxk.zip	11690427430
+03_docking_03c	23983375	10.5281/zenodo.23983375	AffiTox: docking outputs (03c of record 03: 5mo4, 6gqj, 4zau; panel N=10711)	results_5mo4.zip	20337536492
+03_docking_03c	23983375	10.5281/zenodo.23983375	AffiTox: docking outputs (03c of record 03: 5mo4, 6gqj, 4zau; panel N=10711)	results_6gqj.zip	18528130094
+03_docking_03c	23983375	10.5281/zenodo.23983375	AffiTox: docking outputs (03c of record 03: 5mo4, 6gqj, 4zau; panel N=10711)	results_4zau.zip	3684040364
+03_docking_03d	23984015	10.5281/zenodo.23984015	AffiTox: docking outputs (03d of record 03: 7kk3, 5jkv, 4tz4; panel N=10711)	results_4tz4.zip	4734283113
+03_docking_03d	23984015	10.5281/zenodo.23984015	AffiTox: docking outputs (03d of record 03: 7kk3, 5jkv, 4tz4; panel N=10711)	results_7kk3.zip	20425261137
+03_docking_03d	23984015	10.5281/zenodo.23984015	AffiTox: docking outputs (03d of record 03: 7kk3, 5jkv, 4tz4; panel N=10711)	results_5jkv.zip	13981794613
+03_docking_03e	23984506	10.5281/zenodo.23984506	AffiTox: docking outputs (03e of record 03: 4ase, 6jok, 11ue, 1g5m; panel N=10711)	results_1g5m.zip	2524544396
+03_docking_03e	23984506	10.5281/zenodo.23984506	AffiTox: docking outputs (03e of record 03: 4ase, 6jok, 11ue, 1g5m; panel N=10711)	results_4ase.zip	14929004475
+03_docking_03e	23984506	10.5281/zenodo.23984506	AffiTox: docking outputs (03e of record 03: 4ase, 6jok, 11ue, 1g5m; panel N=10711)	results_11ue.zip	4697484441
+03_docking_03e	23984506	10.5281/zenodo.23984506	AffiTox: docking outputs (03e of record 03: 4ase, 6jok, 11ue, 1g5m; panel N=10711)	results_6jok.zip	9369715196
+04_merged	23979579	10.5281/zenodo.23979579	AffiTox: merged ligand_id tables (record 04; panel N=10711)	04_merged.zip	5322913
+05_posebusters	23979721	10.5281/zenodo.23979721	AffiTox: PoseBusters tables (record 05; panel N=10711)	05_posebusters.zip	9877613
+06_metrics_figures	23979767	10.5281/zenodo.23979767	AffiTox: metrics tables and PNG figures (record 06; panel N=10711)	06_metrics_figures.zip	230376874

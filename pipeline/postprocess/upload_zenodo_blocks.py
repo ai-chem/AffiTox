@@ -23,7 +23,7 @@ from upload_zenodo import Client, load_token, save_manifest, load_manifest  # no
 
 API = os.environ.get("ZENODO_API", "https://zenodo.org/api")
 COMMUNITY = os.environ.get("ZENODO_COMMUNITY", "affitox")
-GITHUB = "https://github.com/OlgaKoont/AffiTox"
+GITHUB = "https://github.com/ai-chem/AffiTox"
 MAX_RECORD_GB = 50.0
 
 BLOCK_META = [

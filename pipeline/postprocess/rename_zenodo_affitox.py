@@ -9,7 +9,7 @@ import urllib.error
 import urllib.request
 from pathlib import Path
 
-GITHUB = "https://github.com/OlgaKoont/AffiTox"
+GITHUB = "https://github.com/ai-chem/AffiTox"
 COMMUNITY = "affitox"
 
 TITLE_MAP = {

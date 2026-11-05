@@ -33,7 +33,7 @@ Checked against a live env named `docking` (not a fresh `conda env create` in th
 ## Create the env
 
 ```bash
-git clone https://github.com/OlgaKoont/AffiTox.git
+git clone https://github.com/ai-chem/AffiTox.git
 cd AffiTox
 conda env create -f environment.yml   # not re-run in this documentation pass; CUDA + mgltools pins
 # fallback without NVIDIA / mgltools:
