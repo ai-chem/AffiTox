@@ -101,11 +101,11 @@ Unzip **from the clone root**. Each archive already starts with `results/<pdb>/`
 
 | Shard | DOI | Zip files | PDB |
 |-------|-----|-----------|-----|
-| 03a | [10.5281/zenodo.23224051](https://doi.org/10.5281/zenodo.23224051) | `results_{3eyg,4f65,5lf3,2v5z}.zip` | 3eyg, 4f65, 5lf3, 2v5z |
-| 03b | [10.5281/zenodo.23225395](https://doi.org/10.5281/zenodo.23225395) | `results_{3jy9,3lxk}.zip` | 3jy9, 3lxk |
-| 03c | [10.5281/zenodo.23225788](https://doi.org/10.5281/zenodo.23225788) | `results_{5mo4,6gqj,4zau}.zip` | 5mo4, 6gqj, 4zau |
-| 03d | [10.5281/zenodo.23226603](https://doi.org/10.5281/zenodo.23226603) | `results_{7kk3,5jkv,4tz4}.zip` | 7kk3, 5jkv, 4tz4 |
-| 03e | [10.5281/zenodo.23227176](https://doi.org/10.5281/zenodo.23227176) | `results_{4ase,6jok,11ue,1g5m}.zip` | 4ase, 6jok, 11ue, 1g5m |
+| 03a | [10.5281/zenodo.23981992](https://doi.org/10.5281/zenodo.23981992) (replaces [10.5281/zenodo.23224051](https://doi.org/10.5281/zenodo.23224051)) | `results_{3eyg,4f65,5lf3,2v5z}.zip` | 3eyg, 4f65, 5lf3, 2v5z |
+| 03b | [10.5281/zenodo.23982808](https://doi.org/10.5281/zenodo.23982808) (replaces [10.5281/zenodo.23225395](https://doi.org/10.5281/zenodo.23225395)) | `results_{3jy9,3lxk}.zip` | 3jy9, 3lxk |
+| 03c | [10.5281/zenodo.23983375](https://doi.org/10.5281/zenodo.23983375) (replaces [10.5281/zenodo.23225788](https://doi.org/10.5281/zenodo.23225788)) | `results_{5mo4,6gqj,4zau}.zip` | 5mo4, 6gqj, 4zau |
+| 03d | [10.5281/zenodo.23984015](https://doi.org/10.5281/zenodo.23984015) (replaces [10.5281/zenodo.23226603](https://doi.org/10.5281/zenodo.23226603)) | `results_{7kk3,5jkv,4tz4}.zip` | 7kk3, 5jkv, 4tz4 |
+| 03e | [10.5281/zenodo.23984506](https://doi.org/10.5281/zenodo.23984506) (replaces [10.5281/zenodo.23227176](https://doi.org/10.5281/zenodo.23227176)) | `results_{4ase,6jok,11ue,1g5m}.zip` | 4ase, 6jok, 11ue, 1g5m |
 
 Inside each `results/<pdb>/docking/`: method trees (`qvina`, `gnina`, `plapt`,
 `dynamicbind` / `dynamicbind_new`, `boltz2_*`) with poses, logs, and native
@@ -114,7 +114,7 @@ JSON/SDF.
 ```bash
 # example: 1g5m only (~2.8 GiB), record 03e
 curl -L -o results_1g5m.zip \
-  'https://zenodo.org/records/23227176/files/results_1g5m.zip?download=1'
+  'https://zenodo.org/records/23984506/files/results_1g5m.zip?download=1'
 unzip results_1g5m.zip
 ls results/1g5m/docking
 ```
