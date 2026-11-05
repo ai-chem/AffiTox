@@ -91,6 +91,22 @@ def pdbqt_to_template_mol(pdbqt_path: Path, canonical_smiles: str) -> Any:
     )
 
 
+def sdf_to_template_mol(sdf_path: Path, canonical_smiles: str) -> Any:
+    """Read a docked SDF pose and transfer canonical chemistry."""
+    from rdkit import Chem
+
+    supplier = Chem.SDMolSupplier(str(sdf_path), sanitize=False, removeHs=False)
+    docked = supplier[0] if supplier and len(supplier) else None
+    if docked is None:
+        raise ValueError(f"RDKit could not read ligand coordinates from {sdf_path}")
+    return _transfer_template_chemistry(
+        docked,
+        canonical_smiles,
+        source_path=sdf_path,
+        source_kind="sdf",
+    )
+
+
 def pdb_to_template_mol(pdb_path: Path, canonical_smiles: str) -> Any:
     """Read docked PDB coordinates and transfer canonical chemistry."""
     from rdkit import Chem

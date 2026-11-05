@@ -71,3 +71,4 @@ input/bindingdb/
 # Large third-party training manifests (download, do not commit)
 analysis/tables/overlap/external/gnina/CrossDocked2020_v1.3_types.tgz
 analysis/tables/overlap/external/dynamicbind/d3_with_clash_info.csv
+processed/id_maps/_backup_before_10711_filter/

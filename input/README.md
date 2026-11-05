@@ -28,6 +28,6 @@ Panel PDB IDs: `TARGETS` in `config/project.env.sh`.
 | `pKi` / `pValue` | \(9 - \log_{10}(K_i[\mathrm{nM}])\) |
 | `is_active` | \(K_i < 1000\) nM |
 
-N is recounted after the ligand_id merge (no SMILES collapse). See `input/ligands_curated/N_panel.txt`.
+N is the curated / merged panel size. See `input/ligands_curated/N_panel.txt` (10711).
 
 License: MIT for code; ChEMBL/PDB terms for source records (`NOTICE`).

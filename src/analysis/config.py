@@ -101,7 +101,7 @@ def build_parser() -> argparse.ArgumentParser:
     p.add_argument("--merged-dir", type=Path, required=True)
     p.add_argument("--posebusters-dir", type=Path, required=True)
     p.add_argument("--posebusters-boltz2-dir", type=Path, required=True)
-    p.add_argument("--dynamicbind-posebusters-label", default="dynamicbind_new")
+    p.add_argument("--dynamicbind-posebusters-label", default="dynamicbind")
     p.add_argument("--targets", default=os.environ.get("TARGETS", ""))
     p.add_argument("--methods", default=os.environ.get("METHODS", ""))
     p.add_argument("--exp-col", default=os.environ.get("EXP_COL", "pValue"))

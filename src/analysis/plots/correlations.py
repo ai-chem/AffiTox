@@ -18,6 +18,10 @@ from ..property_baselines import (
     run_property_baselines,
 )
 from .style import (
+    FS_ANNOT,
+    FS_AXIS,
+    FS_PANEL,
+    FS_TICK,
     apply_style,
     diverging_cmap,
     method_color,
@@ -310,7 +314,7 @@ def plot_r_vs_pki_spread(panel: pd.DataFrame, cfg: AnalysisConfig) -> None:
                         (row[spread_col], row[col]),
                         textcoords="offset points",
                         xytext=(3, 3),
-                        fontsize=6,
+                        fontsize=FS_ANNOT,
                         color=color,
                         alpha=0.9,
                     )
@@ -319,8 +323,8 @@ def plot_r_vs_pki_spread(panel: pd.DataFrame, cfg: AnalysisConfig) -> None:
         ax.set_xlim(left=0)
         ax.grid(True, alpha=0.25)
     axes[0].set_ylabel(r"Per-target Pearson $r$")
-    axes[1].legend(loc="lower right", fontsize=7, frameon=False)
-    fig.suptitle("Scoring power vs within-target affinity spread", y=1.02, fontsize=11)
+    axes[1].legend(loc="lower right", fontsize=FS_ANNOT, frameon=False)
+    fig.suptitle("Scoring power vs within-target affinity spread", y=1.02, fontsize=FS_PANEL)
     fig.tight_layout()
     save_figure(fig, out_dir / "pearson_r_vs_pki_spread")
 
@@ -339,7 +343,7 @@ def plot_r_vs_pki_spread(panel: pd.DataFrame, cfg: AnalysisConfig) -> None:
             (row["pki_sd"], row["pearson_r_boltz2"]),
             textcoords="offset points",
             xytext=(4, 4),
-            fontsize=7,
+            fontsize=FS_ANNOT,
         )
     if mask.sum() >= 4:
         sr, sp = spearmanr(x[mask], y[mask])
@@ -349,7 +353,7 @@ def plot_r_vs_pki_spread(panel: pd.DataFrame, cfg: AnalysisConfig) -> None:
             rf"Spearman $\rho$($r$, SD)$=${sr:.2f}" + "\n" + rf"$p=${sp:.3f}",
             transform=ax.transAxes,
             va="top",
-            fontsize=8,
+            fontsize=FS_ANNOT,
             bbox=dict(boxstyle="round,pad=0.25", facecolor="white", edgecolor="#cccccc", alpha=0.9),
         )
     ax.axhline(0.0, color="#888888", lw=0.8)

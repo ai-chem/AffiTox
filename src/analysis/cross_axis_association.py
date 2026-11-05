@@ -98,9 +98,9 @@ def _load_published_affinity() -> pd.DataFrame:
 
 def _pose_panel_for_target(target: str) -> dict[str, dict]:
     merged = load_merged(MERGED_DIR, target)
-    if merged.duplicated("canonical_smiles").any():
-        raise AssertionError(f"Duplicate canonical_smiles in merged table for {target}")
-    n_input = int(len(merged))
+    # Repeated Ki rows share a canonical SMILES and are not extra ligands.
+    # The end-to-end pose denominator is one compound, matching the correlation unit.
+    n_input = int(merged["canonical_smiles"].nunique())
     nodubl = load_nodubl_index(target)
     per_method: dict[str, dict] = {}
     for method_id in POSE_METHODS:
@@ -163,7 +163,7 @@ def build_long_table() -> pd.DataFrame:
     for target in TARGETS:
         pose = _pose_panel_for_target(target)
         merged = load_merged(MERGED_DIR, target)
-        n_input = int(len(merged))
+        n_input = int(merged["canonical_smiles"].nunique())
         for method_id in POSE_METHODS:
             aff = published.loc[
                 (published["target"] == target) & (published["method_id"] == method_id)
@@ -499,9 +499,12 @@ def write_n_audit(long: pd.DataFrame) -> Path:
                 "method_id": r["method_id"],
                 "n_input_ligands": r["n_input_ligands"],
                 "n_merged_rows": int(len(merged)),
+                "n_unique_smiles": int(merged["canonical_smiles"].nunique()),
                 "n_pearson": r["n_pearson"],
                 "n_points_published": int(published["n_points"].iloc[0]) if len(published) else np.nan,
-                "n_input_matches_merged": int(r["n_input_ligands"] == len(merged)),
+                "n_input_matches_unique_smiles": int(
+                    r["n_input_ligands"] == merged["canonical_smiles"].nunique()
+                ),
                 "n_pearson_matches_published": int(
                     len(published) == 1 and int(published["n_points"].iloc[0]) == int(r["n_pearson"])
                 ),
@@ -517,8 +520,8 @@ def write_n_audit(long: pd.DataFrame) -> Path:
     audit = pd.DataFrame(rows)
     path = ROBUST_TABLES / "cross_axis_n_audit.csv"
     audit.to_csv(path, index=False)
-    if not bool(audit["n_input_matches_merged"].all()):
-        raise AssertionError("n_input_ligands does not match merged row counts")
+    if not bool(audit["n_input_matches_unique_smiles"].all()):
+        raise AssertionError("n_input_ligands does not match unique canonical SMILES")
     if not bool(audit["n_pearson_matches_published"].all()):
         raise AssertionError("n_pearson does not match published n_points")
     return path

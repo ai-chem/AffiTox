@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 from ..config import AnalysisConfig
-from .style import apply_style, save_figure, diverging_cmap, sequential_cmap
+from .style import FS_ANNOT, FS_AXIS, FS_PANEL, FS_TICK,  apply_style, save_figure, diverging_cmap, sequential_cmap
 
 
 FAMILY_ORDER: tuple[str, ...] = (
@@ -153,7 +153,7 @@ def plot_inferential_heatmaps(tests: pd.DataFrame, cfg: AnalysisConfig) -> None:
             yticklabels=(idx == 0),
             xticklabels=True,
         )
-        ax.set_title(family, fontsize=10)
+        ax.set_title(family, fontsize=FS_PANEL)
         ax.tick_params(axis="x", rotation=35)
         plt.setp(ax.get_xticklabels(), ha="right")
         if idx == 0:
@@ -170,8 +170,8 @@ def plot_inferential_heatmaps(tests: pd.DataFrame, cfg: AnalysisConfig) -> None:
     cell_in = 1.15
     panel_in = n_methods * cell_in
     label_fs = 8
-    panel_title_fs = 10
-    suptitle_fs = 11
+    panel_title_fs = FS_PANEL
+    suptitle_fs = FS_PANEL
     annot_size = 7.5
     fig_nef = plt.figure(figsize=(2 * panel_in + 1.6, panel_in + 3.0))
     gs_nef = fig_nef.add_gridspec(1, 3, width_ratios=[1.0, 1.0, 0.07], wspace=0.22)
@@ -269,7 +269,7 @@ def plot_inferential_heatmaps(tests: pd.DataFrame, cfg: AnalysisConfig) -> None:
             yticklabels=(idx == 0),
             xticklabels=True,
         )
-        ax.set_title(family, fontsize=10)
+        ax.set_title(family, fontsize=FS_PANEL)
         ax.tick_params(axis="x", rotation=35)
         plt.setp(ax.get_xticklabels(), ha="right")
         if idx == 0:
@@ -409,7 +409,7 @@ def plot_per_target_inferential_heatmaps(per_target_tests: pd.DataFrame, cfg: An
         )
         ax_e.set_title(
             f"{cfg.target_label(target)}: per-target pairwise effects",
-            fontsize=10,
+            fontsize=FS_AXIS,
         )
         ax_e.set_xlabel("Method pair")
         ax_e.set_ylabel("Family")
@@ -433,7 +433,7 @@ def plot_per_target_inferential_heatmaps(per_target_tests: pd.DataFrame, cfg: An
         )
         ax_p.set_title(
             f"{cfg.target_label(target)}: per-target pairwise significance",
-            fontsize=10,
+            fontsize=FS_AXIS,
         )
         ax_p.set_xlabel("Method pair")
         ax_p.set_ylabel("Family")

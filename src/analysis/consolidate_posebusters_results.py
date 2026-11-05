@@ -28,7 +28,7 @@ TARGETS = (
     "5lf3",
     "7kk3",
 )
-METHOD_TAGS = ("gnina", "qvina", "dynamicbind_new", "boltz2")
+METHOD_TAGS = ("gnina", "qvina", "dynamicbind", "boltz2")
 REFRESH_TARGETS = {"2v5z", "4tz4", "11ue", "7kk3"}
 
 
@@ -47,9 +47,10 @@ def _available_pose_count(results_dir: Path, target: str, method: str) -> int:
             for path in (docking / method).glob("ligand_*_out.pdbqt")
             if path.stat().st_size > 0
         )
-    if method == "dynamicbind_new":
+    if method in ("dynamicbind", "dynamicbind_new"):
         ligand_ids: set[str] = set()
-        for index_dir in (docking / "dynamicbind_new").glob("**/index*_idx_*"):
+        sub = "dynamicbind" if (docking / "dynamicbind").exists() else "dynamicbind_new"
+        for index_dir in (docking / sub).glob("**/index*_idx_*"):
             match = re.fullmatch(r"index(\d+)_idx_\d+", index_dir.name)
             if not match:
                 continue

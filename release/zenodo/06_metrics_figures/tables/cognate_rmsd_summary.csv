@@ -1,0 +1,6 @@
+method,n_targets,n_rmsd_le_2A,pct_rmsd_le_2A,median_rmsd_A,mean_rmsd_A,min_rmsd_A,max_rmsd_A,note
+gnina,1,0,0.0,9.811,9.811,9.811,9.811,
+qvina,1,0,0.0,3.103,3.103,3.103,3.103,
+dynamicbind,,,,,,,,Explicitly not computed in this session (GPU cognate redock deferred).
+boltz2,,,,,,,,Explicitly not computed in this session (GPU cognate redock deferred).
+plapt,,,,,,,,No poses; excluded from RMSD and PoseBusters.

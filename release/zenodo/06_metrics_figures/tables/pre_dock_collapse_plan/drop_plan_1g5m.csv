@@ -1,0 +1,9 @@
+canonical_smiles,molecule_chembl_id_keep,molecule_chembl_id_drop,keep_ligand_id,drop_ligand_id,keep_ligand_number,drop_ligand_number,pdb
+CN(C)CC#Cc1ccc(OCCCc2sc(N3CCc4cccc(C(=O)Nc5nc6ccccc6s5)c4C3)nc2C(=O)O)c(F)c1,CHEMBL3342332,CHEMBL3342332,ligand_0057,ligand_0058,57,58,1G5M
+CN(C)CC[C@H](CSc1ccccc1)Nc1ccc(S(=O)(=O)NC(=O)c2ccc(N3CCC(C)(C)CC3)cc2)cc1[N+](=O)[O-],CHEMBL192571,CHEMBL192571,ligand_0081,ligand_0082,81,82,1G5M
+Cc1cc(OCCCc2c(C(=O)O)sc3cc(Cl)ccc23)cc(C)c1Cl,CHEMBL2314176,CHEMBL2314176,ligand_0132,ligand_0133,132,133,1G5M
+Cc1cc(OCCCc2c(C(=O)O)sc3ccccc23)cc(C)c1Cl,CHEMBL2314173,CHEMBL2314173,ligand_0134,ligand_0135,134,135,1G5M
+O=C(Nc1ccc(C(=O)NS(=O)(=O)c2ccc(NCCSc3ccccc3)c([N+](=O)[O-])c2)cc1)c1ccccc1,CHEMBL1940668,CHEMBL1940668,ligand_0231,ligand_0232,231,232,1G5M
+O=C(O)c1oc2ccccc2c1CCCOc1cccc2ccccc12,CHEMBL2314519,CHEMBL2314519,ligand_0242,ligand_0243,242,243,1G5M
+O=C(O)c1sc2cc(Cl)ccc2c1CCCOc1cccc2ccccc12,CHEMBL2314177,CHEMBL2314177,ligand_0244,ligand_0245,244,245,1G5M
+O=C(O)c1sc2ccccc2c1CCCOc1cccc2ccccc12,CHEMBL2314516,CHEMBL2314516,ligand_0246,ligand_0247,246,247,1G5M

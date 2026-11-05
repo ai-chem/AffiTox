@@ -13,6 +13,10 @@ from ..constants import POSEBUSTERS_EXCLUDE
 from ..posebusters import collect_pooled_pass_counts, pass_count_distribution
 from .style import (
     ALL_TARGETS_LABEL,
+    FS_ANNOT,
+    FS_AXIS,
+    FS_PANEL,
+    FS_TICK,
     SUMMARY_BODY_HSPACE,
     apply_style,
     method_color,
@@ -27,9 +31,33 @@ from .style import _format_annot  # shared heatmap cell labels
 ALL_TESTS_HEATMAP_VMIN = 76.0  # 40–100 base; color at 75 → now at 90 (vmax=100)
 ALL_TESTS_HEATMAP_VMAX = 100.0
 
+ARTICLE_CHECK_LABELS = {
+    "mol_pred_loaded": "Molecule loaded",
+    "mol_cond_loaded": "Condition loaded",
+    "sanitization": "Sanitization",
+    "inchi_convertible": "InChI conversion",
+    "all_atoms_connected": "All atoms connected",
+    "bond_lengths": "Bond lengths",
+    "bond_angles": "Bond angles",
+    "internal_steric_clash": "Internal steric clash",
+    "aromatic_ring_flatness": "Aromatic ring flatness",
+    "non-aromatic_ring_non-flatness": "Non-aromatic ring non-flatness",
+    "double_bond_flatness": "Double bond flatness",
+    "internal_energy": "Internal energy",
+    "protein-ligand_maximum_distance": "Protein–ligand max. distance",
+    "minimum_distance_to_protein": "Min. distance to protein",
+    "minimum_distance_to_organic_cofactors": "Min. distance to organic cofactors",
+    "minimum_distance_to_inorganic_cofactors": "Min. distance to inorganic cofactors",
+    "minimum_distance_to_waters": "Min. distance to waters",
+    "volume_overlap_with_protein": "Volume overlap with protein",
+    "volume_overlap_with_organic_cofactors": "Volume overlap with organic cofactors",
+    "volume_overlap_with_inorganic_cofactors": "Volume overlap with inorganic cofactors",
+    "volume_overlap_with_waters": "Volume overlap with waters",
+}
+
 
 def _style_heatmap_text_contrast(
-    ax: plt.Axes, vmin: float, vmax: float, *, fontsize: float = 8
+    ax: plt.Axes, vmin: float, vmax: float, *, fontsize: float = FS_ANNOT
 ) -> None:
     """White/dark annotation text tuned for the 76–100% pass-rate palette."""
     for text in ax.texts:
@@ -77,19 +105,31 @@ def _draw_all_tests_heatmap_panel(
     cbar_ticks: list[float] | None = None,
     panel_letter: str | None = None,
     title_fontsize: float | None = None,
-    annot_size: float = 8,
+    annot_size: float = FS_ANNOT,
+    show_cbar: bool = True,
 ) -> plt.Axes:
-    inner = gs_slot.subgridspec(
-        2,
-        2,
-        height_ratios=[1.0, max(n_body, 1)],
-        width_ratios=[1.0, 0.052],
-        hspace=SUMMARY_BODY_HSPACE / 4,
-        wspace=0.05,
-    )
-    ax_top = fig.add_subplot(inner[0, 0])
-    ax_bot = fig.add_subplot(inner[1, 0], sharex=ax_top)
-    cbar_ax = fig.add_subplot(inner[:, 1])
+    if show_cbar:
+        inner = gs_slot.subgridspec(
+            2,
+            2,
+            height_ratios=[1.0, max(n_body, 1)],
+            width_ratios=[1.0, 0.052],
+            hspace=SUMMARY_BODY_HSPACE / 4,
+            wspace=0.05,
+        )
+        ax_top = fig.add_subplot(inner[0, 0])
+        ax_bot = fig.add_subplot(inner[1, 0], sharex=ax_top)
+        cbar_ax = fig.add_subplot(inner[:, 1])
+    else:
+        inner = gs_slot.subgridspec(
+            2,
+            1,
+            height_ratios=[1.0, max(n_body, 1)],
+            hspace=SUMMARY_BODY_HSPACE / 4,
+        )
+        ax_top = fig.add_subplot(inner[0, 0])
+        ax_bot = fig.add_subplot(inner[1, 0], sharex=ax_top)
+        cbar_ax = None
 
     if cbar_ticks is None:
         cbar_ticks = [76, 80, 85, 90, 95, 100]
@@ -114,30 +154,30 @@ def _draw_all_tests_heatmap_panel(
         ax=ax_bot,
         annot=_format_annot(body, ".1f"),
         fmt="",
+        cbar=show_cbar,
         cbar_ax=cbar_ax,
-        cbar_kws={"label": "Pass rate (%)", "ticks": cbar_ticks},
+        cbar_kws={"label": "Pass rate (%)", "ticks": cbar_ticks} if show_cbar else None,
         **heatmap_kw,
     )
     if adaptive_text:
         _style_heatmap_text_contrast(ax_top, vmin, vmax, fontsize=annot_size)
         _style_heatmap_text_contrast(ax_bot, vmin, vmax, fontsize=annot_size)
 
-    title_fs = (
-        plt.rcParams["axes.titlesize"] if title_fontsize is None else title_fontsize
-    )
+    title_fs = FS_PANEL if title_fontsize is None else title_fontsize
     if title:
         ax_top.set_title(title, fontsize=title_fs, pad=6)
     ax_top.set_xlabel("")
     ax_top.set_ylabel("")
-    ax_top.tick_params(axis="x", bottom=False, labelbottom=False)
-    ax_top.tick_params(axis="y", rotation=0)
+    ax_top.tick_params(axis="x", bottom=False, labelbottom=False, labelsize=FS_TICK)
+    ax_top.tick_params(axis="y", rotation=0, labelsize=FS_TICK)
 
     ax_bot.set_xlabel("")
-    ax_bot.set_ylabel("Target")
-    ax_bot.tick_params(axis="x", rotation=0)
-    ax_bot.tick_params(axis="y", rotation=0, pad=4)
-    ax_top.tick_params(axis="y", pad=4)
-    cbar_ax.tick_params(labelsize=8)
+    ax_bot.set_ylabel("Target", fontsize=FS_AXIS)
+    ax_bot.tick_params(axis="x", rotation=0, labelsize=FS_TICK)
+    ax_bot.tick_params(axis="y", rotation=0, pad=4, labelsize=FS_TICK)
+    ax_top.tick_params(axis="y", pad=4, labelsize=FS_TICK)
+    if cbar_ax is not None:
+        cbar_ax.tick_params(labelsize=FS_TICK)
     if panel_letter:
         _add_panel_letter(ax_top, panel_letter, title_fs)
     return ax_top
@@ -168,11 +208,47 @@ def _prepare_at_least_all_tests_panels(
     return n_tests, at_least, summary_df, body.astype(float), len(body)
 
 def _pretty_check(name: str) -> str:
+    if name in ARTICLE_CHECK_LABELS:
+        return ARTICLE_CHECK_LABELS[name]
     return (
         name.replace("minimum_distance_to_", "min_dist_")
         .replace("volume_overlap_with_", "overlap_")
         .replace("protein-ligand_", "prot_lig_")
     )
+
+
+def _pooled_check_pass_rates(
+    checks: pd.DataFrame,
+    summary: pd.DataFrame,
+    cfg: AnalysisConfig,
+    methods: list[str],
+) -> pd.DataFrame:
+    """Pose-weighted pooled pass rate (%) per check × method (article panel A)."""
+    labels = [cfg.method_label(m) for m in methods]
+    merged = checks.merge(
+        summary[["target", "method_id", "n_poses"]],
+        on=["target", "method_id"],
+        how="left",
+    )
+    check_order: list[str] = []
+    for check in merged["check"]:
+        if check not in check_order:
+            check_order.append(check)
+    records: dict[str, dict[str, float]] = {}
+    for check in check_order:
+        pretty = _pretty_check(check)
+        records[pretty] = {}
+        for method_id in methods:
+            part = merged[(merged["check"] == check) & (merged["method_id"] == method_id)]
+            label = cfg.method_label(method_id)
+            n = float(part["n_poses"].fillna(0).sum())
+            if n <= 0:
+                records[pretty][label] = np.nan
+            else:
+                records[pretty][label] = 100.0 * float(
+                    (part["pass_rate"] * part["n_poses"]).sum() / n
+                )
+    return pd.DataFrame.from_dict(records, orient="index")[labels]
 
 
 def _pass_rate_body(summary: pd.DataFrame, rate_col: str, cfg: AnalysisConfig, methods: list[str]) -> pd.DataFrame:
@@ -378,15 +454,14 @@ def _draw_pass_count_curve_on_ax(
     ax.set_ylim(0, 105)
     ax.set_xticks(range(1, n_tests + 1))
     ax.set_yticks(range(0, 101, 10))
-    title_fs = (
-        plt.rcParams["axes.titlesize"] if title_fontsize is None else title_fontsize
-    )
-    ax.set_xlabel(x_label)
-    ax.set_ylabel("% ligands")
+    title_fs = FS_PANEL if title_fontsize is None else title_fontsize
+    ax.set_xlabel(x_label, fontsize=FS_AXIS)
+    ax.set_ylabel("% ligands", fontsize=FS_AXIS)
+    ax.tick_params(axis="both", labelsize=FS_TICK)
     if title:
         ax.set_title(title, fontsize=title_fs, pad=6)
     ax.grid(True, alpha=0.25, linewidth=0.6)
-    ax.legend(loc="upper left", frameon=True, framealpha=0.9, fontsize=9)
+    ax.legend(loc="upper left", frameon=True, framealpha=0.9, fontsize=FS_TICK)
     if panel_letter:
         _add_panel_letter(ax, panel_letter, title_fs)
 
@@ -410,17 +485,21 @@ def plot_posebusters_at_least_all_tests_combined(
     checks: pd.DataFrame,
     cfg: AnalysisConfig,
 ) -> None:
-    """Left: at-least-N curves; right: pass-all heatmap (same data as heatmap_pass_rate_all)."""
+    """Article figure: A per-check pooled rates; B pass-all by target (+ All targets).
+
+    Panel B keeps its heatmap width; height is stretched to match A. Horizontal
+    gaps A—(B block)—colorbar are equal; cell annotations use ``FS_ANNOT * 1.25``.
+    Entire figure (canvas + fonts + strokes) is scaled by ``SCALE``.
+    """
     apply_style(cfg)
     cmap = sequential_cmap(cfg)
     out_dir = cfg.figures_dir / "posebusters"
-
-    prepared = _prepare_at_least_all_tests_panels(summary, checks, cfg)
-    if prepared is None:
-        return
-    n_tests, at_least, _mean_summary, _mean_body, _n_mean = prepared
-
     methods = [m for m in cfg.methods if m not in POSEBUSTERS_EXCLUDE]
+
+    panel_a = _pooled_check_pass_rates(checks, summary, cfg, methods)
+    if panel_a.isna().all().all():
+        return
+
     body = _pass_rate_body(summary, "pass_rate_all", cfg, methods)
     if body.isna().all().all():
         return
@@ -429,35 +508,48 @@ def plot_posebusters_at_least_all_tests_combined(
     summary_df.index = [ALL_TARGETS_LABEL]
     n_body = len(body)
 
-    title_fs = float(plt.rcParams["axes.titlesize"]) * 1.4
-    annot_fs = 8 * 1.3
+    scale = 1.2
+    font_scale = scale * 1.3
+    fs_panel = FS_PANEL * font_scale
+    fs_axis = FS_AXIS * font_scale
+    fs_tick = FS_TICK * font_scale
+    annot_size = FS_ANNOT * 1.25 * font_scale
+    lw = 0.5 * scale
 
-    fig = plt.figure(figsize=(16.2, 6.8))
+    fig = plt.figure(figsize=(17.2 * scale, 7.4 * scale))
     outer = GridSpec(
         1,
-        2,
+        3,
         figure=fig,
-        width_ratios=[1.0, 1.12],
-        # 0.28 → 0.16 ≈ half a right-panel heatmap cell closer.
-        wspace=0.16,
-        left=0.06,
-        right=0.97,
-        top=0.86,
-        bottom=0.08,
+        width_ratios=[1.35, 1.0, 0.045],
+        wspace=0.28,
+        left=0.16,
+        right=0.95,
+        top=0.88,
+        bottom=0.10,
     )
 
-    ax_line = fig.add_subplot(outer[0, 0])
-    _draw_pass_count_curve_on_ax(
-        ax_line,
-        at_least,
-        cfg,
-        n_tests,
-        x_label=f"Minimum N tests passed (of {n_tests})",
-        title="",
-        title_fontsize=title_fs,
+    ax_a = fig.add_subplot(outer[0, 0])
+    sns.heatmap(
+        panel_a,
+        ax=ax_a,
+        cmap=cmap,
+        vmin=0.0,
+        vmax=100.0,
+        linewidths=lw,
+        linecolor="white",
+        annot=_format_annot(panel_a, ".1f"),
+        fmt="",
+        cbar=False,
+        annot_kws={"size": annot_size, "color": "black"},
     )
+    ax_a.set_xlabel("")
+    ax_a.set_ylabel("Test", fontsize=fs_axis)
+    ax_a.tick_params(axis="x", rotation=0, labelsize=fs_tick)
+    ax_a.tick_params(axis="y", rotation=0, labelsize=fs_tick, pad=2 * scale)
+    plt.setp(ax_a.get_xticklabels(), rotation=0, ha="center")
 
-    ax_heat_top = _draw_all_tests_heatmap_panel(
+    ax_b_top = _draw_all_tests_heatmap_panel(
         fig,
         outer[0, 1],
         summary_df=summary_df,
@@ -469,22 +561,210 @@ def plot_posebusters_at_least_all_tests_combined(
         vmin=0.0,
         vmax=100.0,
         cbar_ticks=[0, 20, 40, 60, 80, 100],
-        title_fontsize=title_fs,
-        annot_size=annot_fs,
+        title_fontsize=fs_panel,
+        annot_size=annot_size,
+        show_cbar=False,
     )
 
-    # A, B and both titles on one figure y (axes-fraction offset made B sit lower).
+    cbar_ax = fig.add_subplot(outer[0, 2])
+    sm = plt.cm.ScalarMappable(cmap=cmap, norm=plt.Normalize(vmin=0.0, vmax=100.0))
+    sm.set_array([])
+    cbar = fig.colorbar(sm, cax=cbar_ax, ticks=[0, 20, 40, 60, 80, 100])
+    cbar.set_label("Pass rate (%)", fontsize=fs_axis)
+    cbar_ax.tick_params(labelsize=fs_tick)
+
+    fig.canvas.draw()
+    ax_b_bot = max(
+        (
+            ax
+            for ax in fig.axes
+            if ax is not ax_b_top
+            and ax is not ax_a
+            and ax is not cbar_ax
+            and abs(ax.get_position().x0 - ax_b_top.get_position().x0) < 1e-4
+        ),
+        key=lambda a: a.get_position().height,
+    )
+
+    fig_w, fig_h = fig.get_size_inches()
+    pa = ax_a.get_position()
+    bt = ax_b_top.get_position()
+    bb = ax_b_bot.get_position()
+    pc = cbar_ax.get_position()
+
+    # Both tables +1/3 taller; cells scale proportionally; widths unchanged.
+    height_scale = 4.0 / 3.0
+    a_w_in = pa.width * fig_w
+    a_h_nat = pa.height * fig_h
+    a_h_in = a_h_nat * height_scale
+    b_w_in = bb.width * fig_w
+    cbar_w_in = pc.width * fig_w
+    gap_sum_in = max(0.0, (bt.y0 - (bb.y0 + bb.height)) * fig_h)
+    new_sum_in = bt.height * fig_h * height_scale
+    new_gap_in = gap_sum_in * height_scale
+    new_body_in = a_h_in - new_sum_in - new_gap_in
+
+    top_margin_in = (1.0 - pa.y0 - pa.height) * fig_h
+    bottom_margin_in = pa.y0 * fig_h
+    fig_h = top_margin_in + a_h_in + bottom_margin_in
+    fig.set_size_inches(fig_w, fig_h, forward=True)
+    y1 = fig_h - top_margin_in
+    a_y0 = y1 - a_h_in
+    b_top_y0 = y1 - new_sum_in
+    b_bot_y0 = a_y0
+
+    # Match panel-B fonts/strokes to the scaled ladder (helper still uses FS_*).
+    for ax in (ax_b_top, ax_b_bot):
+        ax.tick_params(axis="both", labelsize=fs_tick, pad=4 * scale)
+        for coll in ax.collections:
+            coll.set_linewidths([lw])
+        for t in list(ax.texts):
+            t.set_fontsize(annot_size)
+    ax_b_bot.set_ylabel("Target", fontsize=fs_axis, labelpad=6 * scale)
+
+    # Pass-rate colorbar digits: same size + family as docking method labels.
+    method_fs = fs_tick
+    method_family = "DejaVu Sans"
+    for t in ax_a.get_xticklabels():
+        if t.get_text().strip():
+            method_fs = float(t.get_fontsize())
+            method_family = t.get_fontfamily()
+            if isinstance(method_family, (list, tuple)):
+                method_family = method_family[0] if method_family else "DejaVu Sans"
+            break
+
+    def _style_cbar_ticks() -> None:
+        cbar.set_label("Pass rate (%)", fontsize=method_fs)
+        if cbar.ax.yaxis.label is not None:
+            cbar.ax.yaxis.label.set_fontsize(method_fs)
+            cbar.ax.yaxis.label.set_fontname(method_family)
+        cbar_ax.tick_params(labelsize=method_fs)
+        for t in cbar_ax.get_yticklabels():
+            t.set_fontsize(method_fs)
+            t.set_fontname(method_family)
+
+    _style_cbar_ticks()
+    fig._affitox_cbar_tick_fs = method_fs
+    fig._affitox_cbar_tick_family = method_family
+    fig._affitox_style_cbar_ticks = _style_cbar_ticks
+
+    # Place A, then set equal heatmap↔heatmap↔colorbar gaps large enough for Target.
+    label_left_in = 2.8 * scale
+    a_x = label_left_in
+    ax_a.set_position([a_x / fig_w, a_y0 / fig_h, a_w_in / fig_w, a_h_in / fig_h])
+    # Temporary B so we can measure how much left margin Target+ticks need.
+    b_x = a_x + a_w_in + 1.2 * scale
+    ax_b_top.set_position(
+        [b_x / fig_w, b_top_y0 / fig_h, b_w_in / fig_w, new_sum_in / fig_h]
+    )
+    ax_b_bot.set_position(
+        [b_x / fig_w, b_bot_y0 / fig_h, b_w_in / fig_w, new_body_in / fig_h]
+    )
+    cbar_ax.set_position(
+        [(b_x + b_w_in + 0.6 * scale) / fig_w, b_bot_y0 / fig_h, cbar_w_in / fig_w, a_h_in / fig_h]
+    )
+
+    fig.canvas.draw()
+    renderer = fig.canvas.get_renderer()
+    inv = fig.transFigure.inverted()
+
+    def _axes_box_in(ax):
+        p = ax.get_position()
+        return p.x0 * fig_w, (p.x0 + p.width) * fig_w
+
+    def _label_left_extent_in(ax) -> float:
+        """Inches from axes left edge to leftmost y-label/tick ink."""
+        lefts = []
+        for artist in list(ax.get_yticklabels()) + [ax.yaxis.label]:
+            if artist is None or not artist.get_visible():
+                continue
+            try:
+                ab = artist.get_window_extent(renderer)
+            except Exception:
+                continue
+            lefts.append(inv.transform((ab.x0, ab.y0))[0] * fig_w)
+        if not lefts:
+            return 0.55 * scale
+        ax_left, _ = _axes_box_in(ax)
+        return max(0.45 * scale, ax_left - min(lefts) + 0.08 * scale)
+
+    def _cbar_right_extent_in(ax) -> float:
+        rights = []
+        for artist in list(ax.get_yticklabels()) + [ax.yaxis.label]:
+            if artist is None or not artist.get_visible():
+                continue
+            try:
+                ab = artist.get_window_extent(renderer)
+            except Exception:
+                continue
+            rights.append(inv.transform((ab.x1, ab.y1))[0] * fig_w)
+        _, ax_right = _axes_box_in(ax)
+        if not rights:
+            return 0.7 * scale
+        return max(0.55 * scale, max(rights) - ax_right + 0.06 * scale)
+
+    b_label_in = max(
+        _label_left_extent_in(ax_b_bot),
+        _label_left_extent_in(ax_b_top),
+    )
+    cbar_right_in = _cbar_right_extent_in(cbar_ax)
+    right_margin = 0.08 * scale
+
+    def _apply_x(b_xin: float, c_xin: float) -> None:
+        ax_b_top.set_position(
+            [b_xin / fig_w, b_top_y0 / fig_h, b_w_in / fig_w, new_sum_in / fig_h]
+        )
+        ax_b_bot.set_position(
+            [b_xin / fig_w, b_bot_y0 / fig_h, b_w_in / fig_w, new_body_in / fig_h]
+        )
+        cbar_ax.set_position(
+            [c_xin / fig_w, b_bot_y0 / fig_h, cbar_w_in / fig_w, a_h_in / fig_h]
+        )
+
+    # A–B gap fits Target+ticks; B–colorbar gap is tighter (colorbar closer to B).
+    target_clearance_in = 0.45 * scale
+    cbar_gap_in = 0.22 * scale
+    for _ in range(4):
+        gap_ab = b_label_in + target_clearance_in
+        fixed = (
+            label_left_in
+            + a_w_in
+            + gap_ab
+            + b_w_in
+            + cbar_gap_in
+            + cbar_w_in
+            + cbar_right_in
+            + right_margin
+        )
+        if fixed > fig_w + 1e-6:
+            fig_w = fixed + 0.02 * scale
+            fig.set_size_inches(fig_w, fig_h, forward=True)
+            ax_a.set_position(
+                [label_left_in / fig_w, a_y0 / fig_h, a_w_in / fig_w, a_h_in / fig_h]
+            )
+        b_x = label_left_in + a_w_in + gap_ab
+        c_x = b_x + b_w_in + cbar_gap_in
+        _apply_x(b_x, c_x)
+        fig.canvas.draw()
+        renderer = fig.canvas.get_renderer()
+        b_label_in = max(
+            _label_left_extent_in(ax_b_bot),
+            _label_left_extent_in(ax_b_top),
+            b_label_in,
+        )
+        cbar_right_in = max(cbar_right_in, _cbar_right_extent_in(cbar_ax))
+
     fig.canvas.draw()
     inv = fig.transFigure.inverted()
     y_shared = max(
         inv.transform(ax.transAxes.transform((0.0, 1.0)))[1]
-        for ax in (ax_line, ax_heat_top)
+        for ax in (ax_a, ax_b_top)
     )
-    dy = 8.0 / 72.0 / fig.get_figheight()
+    dy = 8.0 * scale / 72.0 / fig.get_figheight()
     y_label = y_shared + dy
     for ax, letter, heading in (
-        (ax_line, "A", "All targets: ligands passing at least N tests"),
-        (ax_heat_top, "B", "Pass all checks"),
+        (ax_a, "A", "Pass rate of each test"),
+        (ax_b_top, "B", "Pass all checks"),
     ):
         x0, _ = inv.transform(ax.transAxes.transform((0.0, 1.0)))
         x1, _ = inv.transform(ax.transAxes.transform((1.0, 1.0)))
@@ -492,7 +772,7 @@ def plot_posebusters_at_least_all_tests_combined(
             x0,
             y_label,
             letter,
-            fontsize=title_fs,
+            fontsize=fs_panel,
             fontweight="bold",
             ha="right",
             va="bottom",
@@ -501,12 +781,44 @@ def plot_posebusters_at_least_all_tests_combined(
             0.5 * (x0 + x1),
             y_label,
             heading,
-            fontsize=title_fs,
+            fontsize=fs_panel,
             ha="center",
             va="bottom",
         )
 
-    save_figure(fig, out_dir / "pass_count_at_least_with_all_tests")
+    from . import style as _plot_style
+
+    _fit_cell = _plot_style._fit_heatmap_cell_text
+    _prevent = _plot_style._prevent_overlapping_text
+    _old_web_w = _plot_style.WEB_HIGH_RES_WIDTH_PX
+    _plot_style._fit_heatmap_cell_text = lambda *args, **kwargs: None
+    _plot_style.WEB_HIGH_RES_WIDTH_PX = int(round(_old_web_w * scale))
+
+    def _prevent_keep_cbar_fs(fig_arg):
+        _prevent(fig_arg)
+        style = getattr(fig_arg, "_affitox_style_cbar_ticks", None)
+        if style is not None:
+            style()
+            return
+        fs = getattr(fig_arg, "_affitox_cbar_tick_fs", None)
+        family = getattr(fig_arg, "_affitox_cbar_tick_family", "DejaVu Sans")
+        if fs is None:
+            return
+        for ax in fig_arg.axes:
+            texts = [t.get_text().strip() for t in ax.get_yticklabels()]
+            if texts and all(t in {"0", "20", "40", "60", "80", "100"} for t in texts if t):
+                ax.tick_params(labelsize=fs)
+                for t in ax.get_yticklabels():
+                    t.set_fontsize(fs)
+                    t.set_fontname(family)
+
+    _plot_style._prevent_overlapping_text = _prevent_keep_cbar_fs
+    try:
+        save_figure(fig, out_dir / "pass_count_at_least_with_all_tests")
+    finally:
+        _plot_style._fit_heatmap_cell_text = _fit_cell
+        _plot_style._prevent_overlapping_text = _prevent
+        _plot_style.WEB_HIGH_RES_WIDTH_PX = _old_web_w
 
 
 def plot_posebusters_at_least_all_tests_combined_var2(

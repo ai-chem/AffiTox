@@ -54,7 +54,7 @@ BLOCK_META = [
         "zip": "04_merged.zip",
         "description": (
             "One merged_ligands_docking_<pdb>.csv per target after joining on ligand_id. "
-            "Panel N = 11180 curated rows (no SMILES collapse). Rebuild from record 03 "
+            "Panel N = 10711 curated / merged rows. Rebuild from record 03 "
             f"to match these numbers. Code: {GITHUB}."
         ),
     },

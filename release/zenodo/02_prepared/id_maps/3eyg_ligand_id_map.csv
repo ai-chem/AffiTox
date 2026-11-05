@@ -185,12 +185,10 @@ pdb_id,ligand_id,molecule_chembl_id,canonical_smiles,csv_row_1based,vina_legacy_
 3eyg,ligand_0184,CHEMBL5819815,CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@@H]1C(=O)N1CC[C@H](N(C)C)C1,184,ligand_184,idx_183,CHEMBL5819815,ligand_0184
 3eyg,ligand_0185,CHEMBL5993958,CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1CC(C)(N(C)C)C1,185,ligand_185,idx_184,CHEMBL5993958,ligand_0185
 3eyg,ligand_0186,CHEMBL5905186,CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1CC(N(C)C)C1,186,ligand_186,idx_185,CHEMBL5905186,ligand_0186
-3eyg,ligand_0187,CHEMBL5905186,CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1CC(N(C)C)C1,187,ligand_187,idx_186,CHEMBL5905186,ligand_0187
 3eyg,ligand_0188,CHEMBL6048787,CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1CC(N2CCCCC2)C1,188,ligand_188,idx_187,CHEMBL6048787,ligand_0188
 3eyg,ligand_0189,CHEMBL5961719,CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1CC(NC)C1,189,ligand_189,idx_188,CHEMBL5961719,ligand_0189
 3eyg,ligand_0190,CHEMBL5934770,CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1CCN(C(C)(C)C)CC1,190,ligand_190,idx_189,CHEMBL5934770,ligand_0190
 3eyg,ligand_0191,CHEMBL5753964,CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1CCN(CCO)CC1,191,ligand_191,idx_190,CHEMBL5753964,ligand_0191
-3eyg,ligand_0192,CHEMBL5753964,CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1CCN(CCO)CC1,192,ligand_192,idx_191,CHEMBL5753964,ligand_0192
 3eyg,ligand_0193,CHEMBL5779028,CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1CCN(CCO)C[C@H]1C,193,ligand_193,idx_192,CHEMBL5779028,ligand_0193
 3eyg,ligand_0194,CHEMBL5956972,CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1C(=O)N1C[C@@H]2C[C@H]1CN2C,194,ligand_194,idx_193,CHEMBL5956972,ligand_0194
 3eyg,ligand_0195,CHEMBL5984979,CCCN1Cc2[nH]c(-c3n[nH]c4cc(-c5cc(F)c(O)cc5CC)ccc34)nc2C[C@H]1CN1CC[C@H](C(C)C)C1,195,ligand_195,idx_194,CHEMBL5984979,ligand_0195
@@ -450,15 +448,10 @@ pdb_id,ligand_id,molecule_chembl_id,canonical_smiles,csv_row_1based,vina_legacy_
 3eyg,ligand_0449,CHEMBL6037681,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1,449,ligand_449,idx_448,CHEMBL6037681,ligand_0449
 3eyg,ligand_0450,CHEMBL5775383,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@@H](CN3CC[C@H](N(C)C)C3)C4)n[nH]c2c1,450,ligand_450,idx_449,CHEMBL5775383,ligand_0450
 3eyg,ligand_0451,CHEMBL5997591,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1,451,ligand_451,idx_450,CHEMBL5997591,ligand_0451
-3eyg,ligand_0452,CHEMBL5997591,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1,452,ligand_452,idx_451,CHEMBL5997591,ligand_0452
-3eyg,ligand_0453,CHEMBL5997591,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1,453,ligand_453,idx_452,CHEMBL5997591,ligand_0453
 3eyg,ligand_0454,CHEMBL5979950,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1,454,ligand_454,idx_453,CHEMBL5979950,ligand_0454
-3eyg,ligand_0455,CHEMBL5979950,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1,455,ligand_455,idx_454,CHEMBL5979950,ligand_0455
 3eyg,ligand_0456,CHEMBL5909265,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC(N5CCCCC5)C3)C4)n[nH]c2c1,456,ligand_456,idx_455,CHEMBL5909265,ligand_0456
 3eyg,ligand_0457,CHEMBL5744137,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CCCN(C)CC3)C4)n[nH]c2c1,457,ligand_457,idx_456,CHEMBL5744137,ligand_0457
-3eyg,ligand_0458,CHEMBL5744137,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CCCN(C)CC3)C4)n[nH]c2c1,458,ligand_458,idx_457,CHEMBL5744137,ligand_0458
 3eyg,ligand_0459,CHEMBL5791141,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC[C@H](N(C)C)C3)C4)n[nH]c2c1,459,ligand_459,idx_458,CHEMBL5791141,ligand_0459
-3eyg,ligand_0460,CHEMBL5791141,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](C(=O)N3CC[C@H](N(C)C)C3)C4)n[nH]c2c1,460,ligand_460,idx_459,CHEMBL5791141,ligand_0460
 3eyg,ligand_0461,CHEMBL5957273,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C(C)C)[C@H](CN3CC[C@H](N(C)C)C3)C4)n[nH]c2c1,461,ligand_461,idx_460,CHEMBL5957273,ligand_0461
 3eyg,ligand_0462,CHEMBL5963652,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C)C(C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1,462,ligand_462,idx_461,CHEMBL5963652,ligand_0462
 3eyg,ligand_0463,CHEMBL5963075,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C)C(C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1,463,ligand_463,idx_462,CHEMBL5963075,ligand_0463
@@ -471,9 +464,7 @@ pdb_id,ligand_id,molecule_chembl_id,canonical_smiles,csv_row_1based,vina_legacy_
 3eyg,ligand_0470,CHEMBL5827817,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C)[C@H](C(=O)N3CC(N5CCCCC5)C3)C4)n[nH]c2c1,470,ligand_470,idx_469,CHEMBL5827817,ligand_0470
 3eyg,ligand_0471,CHEMBL5949644,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C)[C@H](C(=O)N3CCN(C(C)C)CC3)C4)n[nH]c2c1,471,ligand_471,idx_470,CHEMBL5949644,ligand_0471
 3eyg,ligand_0472,CHEMBL5881510,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C)[C@H](C(=O)N3CCN(C)C[C@@H]3C)C4)n[nH]c2c1,472,ligand_472,idx_471,CHEMBL5881510,ligand_0472
-3eyg,ligand_0473,CHEMBL5881510,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C)[C@H](C(=O)N3CCN(C)C[C@@H]3C)C4)n[nH]c2c1,473,ligand_473,idx_472,CHEMBL5881510,ligand_0473
 3eyg,ligand_0474,CHEMBL5851343,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C)[C@H](C(=O)N3CCN(CCO)C[C@H]3C)C4)n[nH]c2c1,474,ligand_474,idx_473,CHEMBL5851343,ligand_0474
-3eyg,ligand_0475,CHEMBL5851343,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(C)[C@H](C(=O)N3CCN(CCO)C[C@H]3C)C4)n[nH]c2c1,475,ligand_475,idx_474,CHEMBL5851343,ligand_0475
 3eyg,ligand_0476,CHEMBL5938763,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)C(C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1,476,ligand_476,idx_475,CHEMBL5938763,ligand_0476
 3eyg,ligand_0477,CHEMBL6055756,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)C(C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1,477,ligand_477,idx_476,CHEMBL6055756,ligand_0477
 3eyg,ligand_0478,CHEMBL5907043,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)C(C(=O)N3CC(N5CCCC5)C3)C4)n[nH]c2c1,478,ligand_478,idx_477,CHEMBL5907043,ligand_0478
@@ -486,12 +477,8 @@ pdb_id,ligand_id,molecule_chembl_id,canonical_smiles,csv_row_1based,vina_legacy_
 3eyg,ligand_0485,CHEMBL6059721,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@@H](C(=O)N3CCN(C(C)(C)C)CC3)C4)n[nH]c2c1,485,ligand_485,idx_484,CHEMBL6059721,ligand_0485
 3eyg,ligand_0486,CHEMBL5958745,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N(C)CCN(CC)CC)C4)n[nH]c2c1,486,ligand_486,idx_485,CHEMBL5958745,ligand_0486
 3eyg,ligand_0487,CHEMBL5776613,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1,487,ligand_487,idx_486,CHEMBL5776613,ligand_0487
-3eyg,ligand_0488,CHEMBL5776613,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(C)(N(C)C)C3)C4)n[nH]c2c1,488,ligand_488,idx_487,CHEMBL5776613,ligand_0488
 3eyg,ligand_0489,CHEMBL6036273,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1,489,ligand_489,idx_488,CHEMBL6036273,ligand_0489
-3eyg,ligand_0490,CHEMBL6036273,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1,490,ligand_490,idx_489,CHEMBL6036273,ligand_0490
-3eyg,ligand_0491,CHEMBL6036273,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N(C)C)C3)C4)n[nH]c2c1,491,ligand_491,idx_490,CHEMBL6036273,ligand_0491
 3eyg,ligand_0492,CHEMBL5930192,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N5CCCCC5)C3)C4)n[nH]c2c1,492,ligand_492,idx_491,CHEMBL5930192,ligand_0492
-3eyg,ligand_0493,CHEMBL5930192,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CC(N5CCCCC5)C3)C4)n[nH]c2c1,493,ligand_493,idx_492,CHEMBL5930192,ligand_0493
 3eyg,ligand_0494,CHEMBL5798094,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CN(CC)[C@H](C(=O)N3CCN(C(C)(C)C)CC3)C4)n[nH]c2c1,494,ligand_494,idx_493,CHEMBL5798094,ligand_0494
 3eyg,ligand_0495,CHEMBL6064937,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CNC(C(=O)N3CCN(C(C)C)CC3)C4)n[nH]c2c1,495,ligand_495,idx_494,CHEMBL6064937,ligand_0495
 3eyg,ligand_0496,CHEMBL5894302,CCc1cc(O)c(F)cc1-c1ccc2c(-c3nc4c([nH]3)CNC(C(=O)N3CCN(C)CC3)C4)n[nH]c2c1,496,ligand_496,idx_495,CHEMBL5894302,ligand_0496
@@ -1221,7 +1208,6 @@ pdb_id,ligand_id,molecule_chembl_id,canonical_smiles,csv_row_1based,vina_legacy_
 3eyg,ligand_1220,CHEMBL6034434,COc1cc(Nc2cc(CO)[nH]n2)nc(N[C@@H]2C[C@H]3CC[C@@H](C2)N3S(=O)(=O)N2CC(C#N)C2)n1,1220,ligand_1220,idx_1219,CHEMBL6034434,ligand_1220
 3eyg,ligand_1221,CHEMBL5940876,COc1cc(Nc2cc(CO)[nH]n2)nc(N[C@@H]2C[C@H]3CC[C@@H](C2)N3S(=O)(=O)N2CCC2)n1,1221,ligand_1221,idx_1220,CHEMBL5940876,ligand_1221
 3eyg,ligand_1222,CHEMBL5761574,COc1cc(Nc2cc(CO)[nH]n2)nc(N[C@@H]2C[C@H]3CC[C@@H](C2)N3S(=O)(=O)c2ccccc2)n1,1222,ligand_1222,idx_1221,CHEMBL5761574,ligand_1222
-3eyg,ligand_1223,CHEMBL5761574,COc1cc(Nc2cc(CO)[nH]n2)nc(N[C@@H]2C[C@H]3CC[C@@H](C2)N3S(=O)(=O)c2ccccc2)n1,1223,ligand_1223,idx_1222,CHEMBL5761574,ligand_1223
 3eyg,ligand_1224,CHEMBL5833272,COc1cc(Nc2cc(CO)[nH]n2)nc(N[C@@H]2C[C@H]3CC[C@@H](C2)N3S(=O)(=O)c2cccnc2)n1,1224,ligand_1224,idx_1223,CHEMBL5833272,ligand_1224
 3eyg,ligand_1225,CHEMBL6015495,COc1cc2[nH]cnc2cc1-c1n[nH]cc1NC(=O)c1cnn2cccnc12,1225,ligand_1225,idx_1224,CHEMBL6015495,ligand_1225
 3eyg,ligand_1226,CHEMBL4755725,COc1cc2[nH]ncc2cc1-c1n[nH]cc1NC(=O)c1cnn2cccnc12,1226,ligand_1226,idx_1225,CHEMBL4755725,ligand_1226
@@ -1357,7 +1343,6 @@ pdb_id,ligand_id,molecule_chembl_id,canonical_smiles,csv_row_1based,vina_legacy_
 3eyg,ligand_1356,CHEMBL2386630,C[C@@H](O)c1nc2cnc3[nH]ccc3c2n1[C@H]1CC[C@H](NCC(F)F)CC1,1356,ligand_1356,idx_1355,CHEMBL2386630,ligand_1356
 3eyg,ligand_1357,CHEMBL2386625,C[C@@H](O)c1nc2cnc3[nH]ccc3c2n1[C@H]1CC[C@H](O)CC1,1357,ligand_1357,idx_1356,CHEMBL2386625,ligand_1357
 3eyg,ligand_1358,CHEMBL221959,C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12,1358,ligand_1358,idx_1357,CHEMBL221959,ligand_1358
-3eyg,ligand_1359,CHEMBL221959,C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12,1359,ligand_1359,idx_1358,CHEMBL221959,ligand_1359
 3eyg,ligand_1360,CHEMBL2103743,C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1N(C)c1ncnc2[nH]ccc12.O=C(O)CC(O)(CC(=O)O)C(=O)O,1360,ligand_1360,idx_1359,CHEMBL2103743,ligand_1360
 3eyg,ligand_1361,CHEMBL2152297,C[C@@H]1CCN(C(=O)CC#N)C[C@@H]1n1cnc2cnc3[nH]ccc3c21,1361,ligand_1361,idx_1360,CHEMBL2152297,ligand_1361
 3eyg,ligand_1362,CHEMBL2152298,C[C@@H]1CCN(Cc2ccccc2)C[C@@H]1N(C)c1ncnc2[nH]ccc12,1362,ligand_1362,idx_1361,CHEMBL2152298,ligand_1362
@@ -1504,7 +1489,6 @@ pdb_id,ligand_id,molecule_chembl_id,canonical_smiles,csv_row_1based,vina_legacy_
 3eyg,ligand_1503,CHEMBL5796525,Cc1cc(Nc2cc3ncccc3c(N[C@@H]3C[C@H]4CC[C@@H](C3)N4CC3CCOCC3)n2)n[nH]1,1503,ligand_1503,idx_1502,CHEMBL5796525,ligand_1503
 3eyg,ligand_1504,CHEMBL6053881,Cc1cc(Nc2cc3ncccc3c(N[C@@H]3C[C@H]4CC[C@@H](C3)N4CC3COC(=O)O3)n2)n[nH]1,1504,ligand_1504,idx_1503,CHEMBL6053881,ligand_1504
 3eyg,ligand_1505,CHEMBL4650343,Cc1cc(Nc2cc3ncccc3c(N[C@@H]3C[C@H]4CC[C@@H](C3)N4CCC#N)n2)n[nH]1,1505,ligand_1505,idx_1504,CHEMBL4650343,ligand_1505
-3eyg,ligand_1506,CHEMBL4650343,Cc1cc(Nc2cc3ncccc3c(N[C@@H]3C[C@H]4CC[C@@H](C3)N4CCC#N)n2)n[nH]1,1506,ligand_1506,idx_1505,CHEMBL4650343,ligand_1506
 3eyg,ligand_1507,CHEMBL6000641,Cc1cc(Nc2cc3ncccc3c(N[C@@H]3C[C@H]4CC[C@@H](C3)N4CCC(=O)CO)n2)n[nH]1,1507,ligand_1507,idx_1506,CHEMBL6000641,ligand_1507
 3eyg,ligand_1508,CHEMBL5921058,Cc1cc(Nc2cc3ncccc3c(N[C@@H]3C[C@H]4CC[C@@H](C3)N4CCC(F)(F)F)n2)n[nH]1,1508,ligand_1508,idx_1507,CHEMBL5921058,ligand_1508
 3eyg,ligand_1509,CHEMBL5823968,Cc1cc(Nc2cc3ncccc3c(N[C@@H]3C[C@H]4CC[C@@H](C3)N4CCCF)n2)n[nH]1,1509,ligand_1509,idx_1508,CHEMBL5823968,ligand_1509
@@ -1573,7 +1557,6 @@ pdb_id,ligand_id,molecule_chembl_id,canonical_smiles,csv_row_1based,vina_legacy_
 3eyg,ligand_1572,CHEMBL5863660,Cc1ccnc(CNC(=O)c2ccc(Nc3nc4c(N5CCC(O)(c6ccc(Cl)cc6)CC5)cccn4n3)cc2)c1,1572,ligand_1572,idx_1571,CHEMBL5863660,ligand_1572
 3eyg,ligand_1573,CHEMBL1287853,Cc1cnc(Nc2ccc(OCCN3CCCC3)cc2)nc1Nc1cccc(S(=O)(=O)NC(C)(C)C)c1,1573,ligand_1573,idx_1572,CHEMBL1287853,ligand_1573
 3eyg,ligand_1574,CHEMBL3979772,Cc1cnc2c(C(=O)Nc3cn(CC(=O)N4C[C@H]5CN(C)C[C@H]5C4)nc3-c3cc(Cl)ccc3OC(F)F)cnn2c1,1574,ligand_1574,idx_1573,CHEMBL3979772,ligand_1574
-3eyg,ligand_1575,CHEMBL3979772,Cc1cnc2c(C(=O)Nc3cn(CC(=O)N4C[C@H]5CN(C)C[C@H]5C4)nc3-c3cc(Cl)ccc3OC(F)F)cnn2c1,1575,ligand_1575,idx_1574,CHEMBL3979772,ligand_1575
 3eyg,ligand_1576,CHEMBL5851201,Cc1cnc2c(F)c(Nc3cc(C)[nH]n3)nc(N[C@@H]3C[C@H]4CCC[C@@H](C3)N4CCC#N)c2c1,1576,ligand_1576,idx_1575,CHEMBL5851201,ligand_1576
 3eyg,ligand_1577,CHEMBL5747341,Cc1cnc2c(F)c(Nc3cc(C)[nH]n3)nc(N[C@@H]3C[C@H]4CCC[C@@H](C3)N4S(=O)(=O)N3CC(C#N)C3)c2c1,1577,ligand_1577,idx_1576,CHEMBL5747341,ligand_1577
 3eyg,ligand_1578,CHEMBL5833647,Cc1cnc2c(F)c(Nc3cc(C)[nH]n3)nc(N[C@@H]3C[C@H]4CCC[C@@H](C3)N4S(=O)(=O)c3cccnc3)c2c1,1578,ligand_1578,idx_1577,CHEMBL5833647,ligand_1578
@@ -1675,7 +1658,6 @@ pdb_id,ligand_id,molecule_chembl_id,canonical_smiles,csv_row_1based,vina_legacy_
 3eyg,ligand_1674,CHEMBL2152420,N#CCCN[C@H]1CC[C@H](n2cnc3cnc4[nH]ccc4c32)CC1,1674,ligand_1674,idx_1673,CHEMBL2152420,ligand_1674
 3eyg,ligand_1675,CHEMBL2392480,N#CCCN[C@H]1CC[C@H](n2nnc3cnc4[nH]ccc4c32)CC1,1675,ligand_1675,idx_1674,CHEMBL2392480,ligand_1675
 3eyg,ligand_1676,CHEMBL1789941,N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1,1676,ligand_1676,idx_1675,CHEMBL1789941,ligand_1676
-3eyg,ligand_1677,CHEMBL1789941,N#CC[C@H](C1CCCC1)n1cc(-c2ncnc3[nH]ccc23)cn1,1677,ligand_1677,idx_1676,CHEMBL1789941,ligand_1677
 3eyg,ligand_1678,CHEMBL5847710,N#CCn1cc(NC(=O)c2cnn3cccnc23)c(-c2cc3c(cc2OC(F)F)NCCO3)n1,1678,ligand_1678,idx_1677,CHEMBL5847710,ligand_1678
 3eyg,ligand_1679,CHEMBL5980178,N#CCn1cc(NC(=O)c2cnn3cccnc23)c(-c2cc3c(cc2OC(F)F)NCCS3)n1,1679,ligand_1679,idx_1678,CHEMBL5980178,ligand_1679
 3eyg,ligand_1680,CHEMBL2436966,N#C[C@@H]1CCC[C@H]1Nc1ncnc2c(=O)[nH]ccc12,1680,ligand_1680,idx_1679,CHEMBL2436966,ligand_1680
@@ -1951,7 +1933,6 @@ pdb_id,ligand_id,molecule_chembl_id,canonical_smiles,csv_row_1based,vina_legacy_
 3eyg,ligand_1950,CHEMBL5893807,O=C(Nc1c[nH]nc1-c1cc2sncc2cc1OC(F)F)c1cnn2cccnc12,1950,ligand_1950,idx_1949,CHEMBL5893807,ligand_1950
 3eyg,ligand_1951,CHEMBL3667520,O=C(Nc1c[nH]nc1-n1cc(Cl)ccc1=O)c1cnn2cccnc12,1951,ligand_1951,idx_1950,CHEMBL3667520,ligand_1951
 3eyg,ligand_1952,CHEMBL2387224,O=C(Nc1ccnc(NC(=O)C2CC2)c1)c1c(Cl)cccc1Cl,1952,ligand_1952,idx_1951,CHEMBL2387224,ligand_1952
-3eyg,ligand_1953,CHEMBL2387224,O=C(Nc1ccnc(NC(=O)C2CC2)c1)c1c(Cl)cccc1Cl,1953,ligand_1953,idx_1952,CHEMBL2387224,ligand_1953
 3eyg,ligand_1954,CHEMBL2420836,O=C(Nc1ccnc(NC(=O)C2CCC2)c1)c1c(Cl)cccc1Cl,1954,ligand_1954,idx_1953,CHEMBL2420836,ligand_1954
 3eyg,ligand_1955,CHEMBL2420824,O=C(Nc1ccnc(Nc2ccccn2)c1)c1c(Cl)cccc1Cl,1955,ligand_1955,idx_1954,CHEMBL2420824,ligand_1955
 3eyg,ligand_1956,CHEMBL2420828,O=C(Nc1ccnc(Nc2cccnn2)c1)c1c(Cl)cccc1Cl,1956,ligand_1956,idx_1955,CHEMBL2420828,ligand_1956
@@ -2109,7 +2090,6 @@ pdb_id,ligand_id,molecule_chembl_id,canonical_smiles,csv_row_1based,vina_legacy_
 3eyg,ligand_2108,CHEMBL3950547,O=C(Nc1sc(N2CCN(CC(F)(F)F)CC2)nc1-c1cc(Cl)ccc1OC(F)F)c1cnn2cccnc12,2108,ligand_2108,idx_2107,CHEMBL3950547,ligand_2108
 3eyg,ligand_2109,CHEMBL3959420,O=C(Nc1sc(N2CCN(CC3CC3)CC2)nc1-c1cc(Cl)ccc1OC(F)F)c1cnn2cccnc12,2109,ligand_2109,idx_2108,CHEMBL3959420,ligand_2109
 3eyg,ligand_2110,CHEMBL3931929,O=C(Nc1sc(N2CCN(CCc3ccccc3)CC2)nc1-c1cc(Cl)ccc1OC(F)F)c1cnn2cccnc12,2110,ligand_2110,idx_2109,CHEMBL3931929,ligand_2110
-3eyg,ligand_2111,CHEMBL3931929,O=C(Nc1sc(N2CCN(CCc3ccccc3)CC2)nc1-c1cc(Cl)ccc1OC(F)F)c1cnn2cccnc12,2111,ligand_2111,idx_2110,CHEMBL3931929,ligand_2111
 3eyg,ligand_2112,CHEMBL3951874,O=C(O)CCN1CCN(C(=O)Cn2cc(NC(=O)c3cnn4cccnc34)c(-c3cc(Cl)ccc3OC(F)F)n2)CC1,2112,ligand_2112,idx_2111,CHEMBL3951874,ligand_2112
 3eyg,ligand_2113,CHEMBL3980934,O=C(O)CN(CCn1cc(NC(=O)c2cnn3cccnc23)c(-c2cc(Cl)ccc2OC(F)F)n1)Cc1cccnc1,2113,ligand_2113,idx_2112,CHEMBL3980934,ligand_2113
 3eyg,ligand_2114,CHEMBL3908328,O=C(O)CN1CCN(C(=O)Cn2cc(NC(=O)c3cnn4cccnc34)c(-c3cc(Cl)ccc3OC(F)F)n2)CC1,2114,ligand_2114,idx_2113,CHEMBL3908328,ligand_2114
@@ -2239,7 +2219,6 @@ pdb_id,ligand_id,molecule_chembl_id,canonical_smiles,csv_row_1based,vina_legacy_
 3eyg,ligand_2238,CHEMBL5971474,[C-]#[N+]CCN1CCN(C(=O)Cn2cc(NC(=O)c3cnn4cccnc34)c(-c3cc(Cl)ccc3OC(F)F)n2)CC1,2238,ligand_2238,idx_2237,CHEMBL5971474,ligand_2238
 3eyg,ligand_2239,CHEMBL5808789,[C-]#[N+][C@H]1CCCN(C2CCN(C(=O)Cn3cc(NC(=O)c4cnn5cccnc45)c(-c4cc(Cl)ccc4OC(F)F)n3)CC2)C1,2239,ligand_2239,idx_2238,CHEMBL5808789,ligand_2239
 3eyg,ligand_2240,CHEMBL2152306,c1cc2c(ncc3ncn(C4CCNCC4)c32)[nH]1,2240,ligand_2240,idx_2239,CHEMBL2152306,ligand_2240
-3eyg,ligand_2241,CHEMBL2152306,c1cc2c(ncc3ncn(C4CCNCC4)c32)[nH]1,2241,ligand_2241,idx_2240,CHEMBL2152306,ligand_2241
 3eyg,ligand_2242,CHEMBL2152417,c1cc2c(ncc3ncn([C@H]4CC[C@@H](N5CCOCC5)CC4)c32)[nH]1,2242,ligand_2242,idx_2241,CHEMBL2152417,ligand_2242
 3eyg,ligand_2243,CHEMBL2152416,c1cc2c(ncc3ncn([C@H]4CC[C@H](N5CCOCC5)CC4)c32)[nH]1,2243,ligand_2243,idx_2242,CHEMBL2152416,ligand_2243
 3eyg,ligand_2244,CHEMBL2152419,c1cc2c(ncc3ncn([C@H]4CC[C@H](NCC5CC5)CC4)c32)[nH]1,2244,ligand_2244,idx_2243,CHEMBL2152419,ligand_2244

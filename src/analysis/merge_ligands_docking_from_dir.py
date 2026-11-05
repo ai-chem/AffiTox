@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
 """
-Скрипт для объединения данных лигандов из ligands_nodubl с метриками докинга,
-собранными из директории docking.
+Merge nodubl/curated ligand tables with docking metrics.
 
-Берет CSV файлы из ligands_nodubl, извлекает нужные столбцы и добавляет
-метрики докинга (boltz2 и exp_*) из директории data/results_bindingdb/{protein}/docking
-или из собранных файлов, объединяя по canonical_smiles.
+Pre-dock curation (enforced here before the score join):
+  within each target, rows that share canonical_smiles (+ molecule_chembl_id
+  when present) are collapsed by the arithmetic mean of experimental Ki fields.
+  The surviving ligand_id is an *existing* id from that group (never renumbered),
+  chosen deterministically as the minimum ligand_id. Docking scores are then
+  joined only on that ligand_id so the merge cannot attach another molecule's
+  poses/scores.
+
+Assay-level nodubl rows may still exist on disk for provenance; the merged
+analysis tables are unique ligand–target pairs after this collapse.
 """
 
 import argparse
@@ -22,6 +28,7 @@ _SRC = Path(__file__).resolve().parent.parent
 if str(_SRC) not in sys.path:
     sys.path.insert(0, str(_SRC))
 
+from analysis.ligand_collapse import group_by_smiles
 from analysis.ligand_identity import chembl_to_ligand_ids, native_to_ligand_id
 from analysis.panel import (
     CANONICAL_TARGETS,
@@ -228,44 +235,7 @@ def collect_boltz_metrics(
     return result
 
 
-def group_by_smiles(df: pd.DataFrame, smiles_col: str = "canonical_smiles") -> pd.DataFrame:
-    """
-    Группирует DataFrame по SMILES, усредняя числовые метрики.
-    """
-    if smiles_col not in df.columns:
-        return df
-    
-    # Фильтруем строки с валидными SMILES
-    mask = df[smiles_col].notna() & (
-        df[smiles_col].astype(str).str.strip() != ''
-    ) & (
-        df[smiles_col].astype(str).str.lower() != 'nan'
-    )
-    df_filtered = df[mask].copy()
-    
-    if len(df_filtered) == 0:
-        return df
-    
-    # Определяем колонки для группировки
-    group_cols = [smiles_col]
-    if "molecule_chembl_id" in df_filtered.columns:
-        group_cols.append("molecule_chembl_id")
-    
-    # Определяем колонки с метриками (исключаем служебные)
-    exclude_cols = set(group_cols)
-    metric_cols = [c for c in df_filtered.columns if c not in exclude_cols]
-    
-    # Группируем по SMILES и агрегируем метрики
-    agg_dict = {}
-    for col in metric_cols:
-        if pd.api.types.is_numeric_dtype(df_filtered[col]):
-            agg_dict[col] = 'mean'
-        else:
-            agg_dict[col] = 'first'
-    
-    df_grouped = df_filtered.groupby(group_cols, as_index=False).agg(agg_dict)
-    
-    return df_grouped
+# group_by_smiles: see analysis.ligand_collapse (pre-dock mean-Ki collapse).
 
 
 # Импортируем функции парсинга из extract_raw_docking_metrics.py
@@ -718,7 +688,16 @@ def merge_ligands_with_docking(
         ligands_selected = ligands_selected[ligands_selected["ligand_id"].isin(keep)].copy()
         print(f"   EXAMPLE_N={example_n}: keeping {len(ligands_selected)} ligand_id rows")
 
-    print(f"   Найдено {len(ligands_selected)} записей лигандов")
+    print(f"   Найдено {len(ligands_selected)} записей лигандов (assay-level / nodubl)")
+
+    # Pre-dock collapse: mean experimental Ki per SMILES; keep existing ligand_id.
+    # Docking artifacts remain keyed by that representative ligand_id (no renumbering).
+    n_before = len(ligands_selected)
+    ligands_selected = group_by_smiles(ligands_selected)
+    print(
+        f"   Pre-dock mean-Ki collapse by SMILES: {n_before} → {len(ligands_selected)} "
+        f"(ligand_id preserved from each group)"
+    )
 
     if results_dir is None:
         results_dir = base_dir / "results"
@@ -728,7 +707,12 @@ def merge_ligands_with_docking(
         protein, docking_dir, dynamicbind_subdir=dynamicbind_subdir
     )
     all_metrics_by_ligand = _remap_metrics_to_ligand_id(all_metrics_by_native, lookup)
-    print(f"   Найдено метрик для {len(all_metrics_by_ligand)} ligand_id")
+    # Restrict to surviving ligand_ids so left-merge cannot pick up orphan scores
+    keep_ids = set(ligands_selected["ligand_id"].astype(str))
+    all_metrics_by_ligand = {
+        lid: m for lid, m in all_metrics_by_ligand.items() if str(lid) in keep_ids
+    }
+    print(f"   Найдено метрик для {len(all_metrics_by_ligand)} ligand_id (после collapse)")
 
     print(f"🔍 Собираю метрики Boltz для {protein}...")
     boltz_metrics = collect_boltz_metrics(protein, boltz_results_dir)
@@ -741,6 +725,8 @@ def merge_ligands_with_docking(
             unmatched_boltz.append(chembl_id)
             continue
         for lid in lids:
+            if str(lid) not in keep_ids:
+                continue
             boltz_by_ligand.setdefault(lid, {}).update(metrics)
     if unmatched_boltz:
         print(
@@ -753,7 +739,7 @@ def merge_ligands_with_docking(
     ligands_selected["exp_standard_value"] = ligands_selected.get("standard_value", None)
     ligands_selected["exp_pchembl_value"] = ligands_selected.get("pchembl_value", None)
 
-    print("🔗 Объединяю данные по (pdb_id, ligand_id)...")
+    print("🔗 Объединяю данные по (pdb_id, ligand_id) — только представительские id...")
     merged_df = ligands_selected.copy()
     if all_metrics_by_ligand:
         metrics_df = pd.DataFrame(

@@ -75,14 +75,14 @@ def resolve_posebusters_csv(
     cfg_boltz_dir: Path,
     target: str,
     method_id: str,
-    dynamicbind_label: str = "dynamicbind_new",
+    dynamicbind_label: str = "dynamicbind",
 ) -> Path | None:
     key = POSEBUSTERS_METHOD_KEYS.get(method_id, method_id)
     if method_id == "boltz2":
         path = cfg_boltz_dir / f"posebusters_results_{target.lower()}_{key}.csv"
         return path if path.exists() else None
     if method_id == "dynamicbind":
-        for label in (dynamicbind_label, "dynamicbind_new", "dynamicbind"):
+        for label in (dynamicbind_label, "dynamicbind", "dynamicbind_new", "dynamicbind_old"):
             path = cfg_pose_dir / f"posebusters_results_{target.lower()}_{label}.csv"
             if path.exists():
                 return path

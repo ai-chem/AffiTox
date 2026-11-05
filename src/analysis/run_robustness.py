@@ -54,7 +54,7 @@ def build_inventory() -> Path:
         files.append(
             (MERGED_DIR / f"merged_ligands_docking_{t}.csv", "ligand (merged panel)", ["canonical_smiles"])
         )
-        for method in ("boltz2", "gnina", "qvina", "dynamicbind_new"):
+        for method in ("boltz2", "gnina", "qvina", "dynamicbind"):
             files.append(
                 (
                     POSE_DIR / f"posebusters_results_{t}_{method}.csv",

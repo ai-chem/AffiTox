@@ -1,0 +1,1497 @@
+method_id,method_label,check,check_label,target,pass_rate_pct
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,1g5m,100.0000
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,2v5z,100.0000
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,3eyg,100.0000
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,3jy9,100.0000
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,3lxk,100.0000
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,11ue,100.0000
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,4ase,100.0000
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,4f65,100.0000
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,4tz4,100.0000
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,4zau,100.0000
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,5jkv,100.0000
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,5mo4,100.0000
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,6gqj,100.0000
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,6jok,100.0000
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,5lf3,100.0000
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,7kk3,100.0000
+boltz2,Boltz-2,mol_pred_loaded,mol_pred_loaded,pooled,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,1g5m,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,2v5z,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,3eyg,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,3jy9,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,3lxk,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,11ue,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,4ase,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,4f65,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,4tz4,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,4zau,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,5jkv,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,5mo4,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,6gqj,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,6jok,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,5lf3,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,7kk3,100.0000
+boltz2,Boltz-2,mol_cond_loaded,mol_cond_loaded,pooled,100.0000
+boltz2,Boltz-2,sanitization,sanitization,1g5m,100.0000
+boltz2,Boltz-2,sanitization,sanitization,2v5z,100.0000
+boltz2,Boltz-2,sanitization,sanitization,3eyg,100.0000
+boltz2,Boltz-2,sanitization,sanitization,3jy9,100.0000
+boltz2,Boltz-2,sanitization,sanitization,3lxk,100.0000
+boltz2,Boltz-2,sanitization,sanitization,11ue,100.0000
+boltz2,Boltz-2,sanitization,sanitization,4ase,100.0000
+boltz2,Boltz-2,sanitization,sanitization,4f65,100.0000
+boltz2,Boltz-2,sanitization,sanitization,4tz4,100.0000
+boltz2,Boltz-2,sanitization,sanitization,4zau,100.0000
+boltz2,Boltz-2,sanitization,sanitization,5jkv,100.0000
+boltz2,Boltz-2,sanitization,sanitization,5mo4,100.0000
+boltz2,Boltz-2,sanitization,sanitization,6gqj,100.0000
+boltz2,Boltz-2,sanitization,sanitization,6jok,100.0000
+boltz2,Boltz-2,sanitization,sanitization,5lf3,100.0000
+boltz2,Boltz-2,sanitization,sanitization,7kk3,100.0000
+boltz2,Boltz-2,sanitization,sanitization,pooled,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,1g5m,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,2v5z,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,3eyg,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,3jy9,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,3lxk,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,11ue,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,4ase,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,4f65,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,4tz4,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,4zau,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,5jkv,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,5mo4,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,6gqj,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,6jok,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,5lf3,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,7kk3,100.0000
+boltz2,Boltz-2,inchi_convertible,inchi_convertible,pooled,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,1g5m,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,2v5z,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,3eyg,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,3jy9,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,3lxk,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,11ue,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,4ase,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,4f65,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,4tz4,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,4zau,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,5jkv,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,5mo4,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,6gqj,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,6jok,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,5lf3,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,7kk3,100.0000
+boltz2,Boltz-2,all_atoms_connected,all_atoms_connected,pooled,100.0000
+boltz2,Boltz-2,bond_lengths,bond_lengths,1g5m,100.0000
+boltz2,Boltz-2,bond_lengths,bond_lengths,2v5z,100.0000
+boltz2,Boltz-2,bond_lengths,bond_lengths,3eyg,100.0000
+boltz2,Boltz-2,bond_lengths,bond_lengths,3jy9,99.9005
+boltz2,Boltz-2,bond_lengths,bond_lengths,3lxk,100.0000
+boltz2,Boltz-2,bond_lengths,bond_lengths,11ue,100.0000
+boltz2,Boltz-2,bond_lengths,bond_lengths,4ase,100.0000
+boltz2,Boltz-2,bond_lengths,bond_lengths,4f65,100.0000
+boltz2,Boltz-2,bond_lengths,bond_lengths,4tz4,100.0000
+boltz2,Boltz-2,bond_lengths,bond_lengths,4zau,100.0000
+boltz2,Boltz-2,bond_lengths,bond_lengths,5jkv,100.0000
+boltz2,Boltz-2,bond_lengths,bond_lengths,5mo4,99.8527
+boltz2,Boltz-2,bond_lengths,bond_lengths,6gqj,100.0000
+boltz2,Boltz-2,bond_lengths,bond_lengths,6jok,100.0000
+boltz2,Boltz-2,bond_lengths,bond_lengths,5lf3,98.7952
+boltz2,Boltz-2,bond_lengths,bond_lengths,7kk3,99.9045
+boltz2,Boltz-2,bond_lengths,bond_lengths,pooled,99.9033
+boltz2,Boltz-2,bond_angles,bond_angles,1g5m,100.0000
+boltz2,Boltz-2,bond_angles,bond_angles,2v5z,100.0000
+boltz2,Boltz-2,bond_angles,bond_angles,3eyg,100.0000
+boltz2,Boltz-2,bond_angles,bond_angles,3jy9,99.9503
+boltz2,Boltz-2,bond_angles,bond_angles,3lxk,100.0000
+boltz2,Boltz-2,bond_angles,bond_angles,11ue,100.0000
+boltz2,Boltz-2,bond_angles,bond_angles,4ase,100.0000
+boltz2,Boltz-2,bond_angles,bond_angles,4f65,100.0000
+boltz2,Boltz-2,bond_angles,bond_angles,4tz4,100.0000
+boltz2,Boltz-2,bond_angles,bond_angles,4zau,100.0000
+boltz2,Boltz-2,bond_angles,bond_angles,5jkv,100.0000
+boltz2,Boltz-2,bond_angles,bond_angles,5mo4,100.0000
+boltz2,Boltz-2,bond_angles,bond_angles,6gqj,100.0000
+boltz2,Boltz-2,bond_angles,bond_angles,6jok,100.0000
+boltz2,Boltz-2,bond_angles,bond_angles,5lf3,98.7952
+boltz2,Boltz-2,bond_angles,bond_angles,7kk3,100.0000
+boltz2,Boltz-2,bond_angles,bond_angles,pooled,99.9216
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,1g5m,99.1770
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,2v5z,100.0000
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,3eyg,99.8208
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,3jy9,99.7016
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,3lxk,100.0000
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,11ue,99.6350
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,4ase,99.5294
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,4f65,99.2481
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,4tz4,99.1150
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,4zau,100.0000
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,5jkv,100.0000
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,5mo4,100.0000
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,6gqj,99.8162
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,6jok,100.0000
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,5lf3,97.5904
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,7kk3,100.0000
+boltz2,Boltz-2,internal_steric_clash,internal_steric_clash,pooled,99.6021
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,1g5m,100.0000
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,2v5z,100.0000
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,3eyg,100.0000
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,3jy9,100.0000
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,3lxk,100.0000
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,11ue,100.0000
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,4ase,100.0000
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,4f65,100.0000
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,4tz4,100.0000
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,4zau,100.0000
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,5jkv,100.0000
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,5mo4,100.0000
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,6gqj,100.0000
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,6jok,100.0000
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,5lf3,100.0000
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,7kk3,100.0000
+boltz2,Boltz-2,aromatic_ring_flatness,aromatic_ring_flatness,pooled,100.0000
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,1g5m,100.0000
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,2v5z,100.0000
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,3eyg,100.0000
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,3jy9,99.7016
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,3lxk,100.0000
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,11ue,100.0000
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,4ase,100.0000
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,4f65,99.2481
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,4tz4,99.1150
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,4zau,100.0000
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,5jkv,99.7942
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,5mo4,100.0000
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,6gqj,99.8162
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,6jok,100.0000
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,5lf3,100.0000
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,7kk3,99.8090
+boltz2,Boltz-2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,pooled,99.8428
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,1g5m,98.3539
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,2v5z,99.0196
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,3eyg,99.8208
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,3jy9,99.9503
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,3lxk,99.8677
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,11ue,99.6350
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,4ase,99.8824
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,4f65,100.0000
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,4tz4,100.0000
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,4zau,100.0000
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,5jkv,98.3539
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,5mo4,100.0000
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,6gqj,100.0000
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,6jok,99.5968
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,5lf3,72.2892
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,7kk3,99.9045
+boltz2,Boltz-2,double_bond_flatness,double_bond_flatness,pooled,97.9171
+boltz2,Boltz-2,internal_energy,internal_energy,1g5m,100.0000
+boltz2,Boltz-2,internal_energy,internal_energy,2v5z,100.0000
+boltz2,Boltz-2,internal_energy,internal_energy,3eyg,99.5968
+boltz2,Boltz-2,internal_energy,internal_energy,3jy9,99.5525
+boltz2,Boltz-2,internal_energy,internal_energy,3lxk,100.0000
+boltz2,Boltz-2,internal_energy,internal_energy,11ue,99.6350
+boltz2,Boltz-2,internal_energy,internal_energy,4ase,98.7059
+boltz2,Boltz-2,internal_energy,internal_energy,4f65,100.0000
+boltz2,Boltz-2,internal_energy,internal_energy,4tz4,100.0000
+boltz2,Boltz-2,internal_energy,internal_energy,4zau,99.1489
+boltz2,Boltz-2,internal_energy,internal_energy,5jkv,99.7942
+boltz2,Boltz-2,internal_energy,internal_energy,5mo4,100.0000
+boltz2,Boltz-2,internal_energy,internal_energy,6gqj,99.7243
+boltz2,Boltz-2,internal_energy,internal_energy,6jok,99.5968
+boltz2,Boltz-2,internal_energy,internal_energy,5lf3,98.7952
+boltz2,Boltz-2,internal_energy,internal_energy,7kk3,99.8090
+boltz2,Boltz-2,internal_energy,internal_energy,pooled,99.6474
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,1g5m,100.0000
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,2v5z,100.0000
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,3eyg,100.0000
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,3jy9,100.0000
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,3lxk,100.0000
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,11ue,100.0000
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,4ase,100.0000
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,4f65,100.0000
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,4tz4,100.0000
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,4zau,100.0000
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,5jkv,100.0000
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,5mo4,100.0000
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,6gqj,100.0000
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,6jok,100.0000
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,5lf3,100.0000
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,7kk3,100.0000
+boltz2,Boltz-2,protein-ligand_maximum_distance,prot_lig_maximum_distance,pooled,100.0000
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,1g5m,95.8848
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,2v5z,84.3137
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,3eyg,91.8907
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,3jy9,90.6514
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,3lxk,80.4233
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,11ue,94.8905
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,4ase,91.4118
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,4f65,96.9925
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,4tz4,97.3451
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,4zau,88.0851
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,5jkv,80.6584
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,5mo4,92.4890
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,6gqj,87.2243
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,6jok,92.3387
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,5lf3,36.1446
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,7kk3,89.8758
+boltz2,Boltz-2,minimum_distance_to_protein,min_dist_protein,pooled,86.9137
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,1g5m,100.0000
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,2v5z,100.0000
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,3eyg,100.0000
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,3jy9,100.0000
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,3lxk,100.0000
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,11ue,100.0000
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,4ase,100.0000
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,4f65,100.0000
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,4tz4,100.0000
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,4zau,100.0000
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,5jkv,100.0000
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,5mo4,100.0000
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,6gqj,100.0000
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,6jok,100.0000
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,5lf3,100.0000
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,7kk3,100.0000
+boltz2,Boltz-2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,pooled,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,1g5m,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,2v5z,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,3eyg,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,3jy9,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,3lxk,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,11ue,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,4ase,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,4f65,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,4tz4,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,4zau,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,5jkv,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,5mo4,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,6gqj,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,6jok,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,5lf3,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,7kk3,100.0000
+boltz2,Boltz-2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,pooled,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,1g5m,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,2v5z,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,3eyg,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,3jy9,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,3lxk,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,11ue,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,4ase,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,4f65,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,4tz4,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,4zau,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,5jkv,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,5mo4,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,6gqj,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,6jok,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,5lf3,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,7kk3,100.0000
+boltz2,Boltz-2,minimum_distance_to_waters,min_dist_waters,pooled,100.0000
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,1g5m,100.0000
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,2v5z,100.0000
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,3eyg,100.0000
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,3jy9,100.0000
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,3lxk,100.0000
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,11ue,100.0000
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,4ase,100.0000
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,4f65,100.0000
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,4tz4,100.0000
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,4zau,100.0000
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,5jkv,100.0000
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,5mo4,100.0000
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,6gqj,100.0000
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,6jok,99.5968
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,5lf3,100.0000
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,7kk3,100.0000
+boltz2,Boltz-2,volume_overlap_with_protein,overlap_protein,pooled,99.9748
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,1g5m,100.0000
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,2v5z,100.0000
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,3eyg,100.0000
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,3jy9,100.0000
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,3lxk,100.0000
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,11ue,100.0000
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,4ase,100.0000
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,4f65,100.0000
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,4tz4,100.0000
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,4zau,100.0000
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,5jkv,100.0000
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,5mo4,100.0000
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,6gqj,100.0000
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,6jok,100.0000
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,5lf3,100.0000
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,7kk3,100.0000
+boltz2,Boltz-2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,pooled,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,1g5m,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,2v5z,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,3eyg,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,3jy9,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,3lxk,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,11ue,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,4ase,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,4f65,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,4tz4,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,4zau,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,5jkv,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,5mo4,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,6gqj,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,6jok,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,5lf3,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,7kk3,100.0000
+boltz2,Boltz-2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,pooled,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,1g5m,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,2v5z,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,3eyg,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,3jy9,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,3lxk,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,11ue,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,4ase,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,4f65,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,4tz4,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,4zau,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,5jkv,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,5mo4,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,6gqj,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,6jok,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,5lf3,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,7kk3,100.0000
+boltz2,Boltz-2,volume_overlap_with_waters,overlap_waters,pooled,100.0000
+boltz2,Boltz-2,All tests,All tests,1g5m,99.6865
+boltz2,Boltz-2,All tests,All tests,2v5z,99.2063
+boltz2,Boltz-2,All tests,All tests,3eyg,99.5776
+boltz2,Boltz-2,All tests,All tests,3jy9,99.4956
+boltz2,Boltz-2,All tests,All tests,3lxk,99.0615
+boltz2,Boltz-2,All tests,All tests,11ue,99.7046
+boltz2,Boltz-2,All tests,All tests,4ase,99.5014
+boltz2,Boltz-2,All tests,All tests,4f65,99.7852
+boltz2,Boltz-2,All tests,All tests,4tz4,99.7893
+boltz2,Boltz-2,All tests,All tests,4zau,99.3921
+boltz2,Boltz-2,All tests,All tests,5jkv,98.9810
+boltz2,Boltz-2,All tests,All tests,5mo4,99.6353
+boltz2,Boltz-2,All tests,All tests,6gqj,99.3610
+boltz2,Boltz-2,All tests,All tests,6jok,99.5776
+boltz2,Boltz-2,All tests,All tests,5lf3,95.3528
+boltz2,Boltz-2,All tests,All tests,7kk3,99.4906
+boltz2,Boltz-2,All tests,All tests,pooled,99.2249
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,1g5m,100.0000
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,2v5z,100.0000
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,3eyg,100.0000
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,3jy9,100.0000
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,3lxk,100.0000
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,11ue,100.0000
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,4ase,100.0000
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,4f65,100.0000
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,4tz4,100.0000
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,4zau,100.0000
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,5jkv,100.0000
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,5mo4,100.0000
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,6gqj,100.0000
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,6jok,100.0000
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,5lf3,100.0000
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,7kk3,100.0000
+dynamicbind,DynamicBind,mol_pred_loaded,mol_pred_loaded,pooled,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,1g5m,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,2v5z,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,3eyg,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,3jy9,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,3lxk,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,11ue,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,4ase,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,4f65,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,4tz4,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,4zau,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,5jkv,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,5mo4,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,6gqj,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,6jok,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,5lf3,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,7kk3,100.0000
+dynamicbind,DynamicBind,mol_cond_loaded,mol_cond_loaded,pooled,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,1g5m,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,2v5z,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,3eyg,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,3jy9,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,3lxk,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,11ue,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,4ase,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,4f65,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,4tz4,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,4zau,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,5jkv,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,5mo4,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,6gqj,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,6jok,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,5lf3,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,7kk3,100.0000
+dynamicbind,DynamicBind,sanitization,sanitization,pooled,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,1g5m,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,2v5z,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,3eyg,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,3jy9,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,3lxk,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,11ue,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,4ase,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,4f65,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,4tz4,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,4zau,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,5jkv,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,5mo4,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,6gqj,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,6jok,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,5lf3,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,7kk3,100.0000
+dynamicbind,DynamicBind,inchi_convertible,inchi_convertible,pooled,100.0000
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,1g5m,100.0000
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,2v5z,98.1132
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,3eyg,100.0000
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,3jy9,99.9503
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,3lxk,99.8679
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,11ue,99.6350
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,4ase,99.8824
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,4f65,100.0000
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,4tz4,100.0000
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,4zau,100.0000
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,5jkv,99.7942
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,5mo4,99.5595
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,6gqj,100.0000
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,6jok,99.5984
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,5lf3,100.0000
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,7kk3,100.0000
+dynamicbind,DynamicBind,all_atoms_connected,all_atoms_connected,pooled,99.7751
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,1g5m,100.0000
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,2v5z,100.0000
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,3eyg,100.0000
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,3jy9,100.0000
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,3lxk,100.0000
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,11ue,100.0000
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,4ase,100.0000
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,4f65,100.0000
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,4tz4,100.0000
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,4zau,100.0000
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,5jkv,100.0000
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,5mo4,100.0000
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,6gqj,100.0000
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,6jok,100.0000
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,5lf3,100.0000
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,7kk3,100.0000
+dynamicbind,DynamicBind,bond_lengths,bond_lengths,pooled,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,1g5m,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,2v5z,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,3eyg,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,3jy9,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,3lxk,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,11ue,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,4ase,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,4f65,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,4tz4,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,4zau,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,5jkv,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,5mo4,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,6gqj,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,6jok,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,5lf3,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,7kk3,100.0000
+dynamicbind,DynamicBind,bond_angles,bond_angles,pooled,100.0000
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,1g5m,96.7078
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,2v5z,98.1132
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,3eyg,97.5817
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,3jy9,96.5723
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,3lxk,97.3580
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,11ue,98.1752
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,4ase,98.2353
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,4f65,100.0000
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,4tz4,100.0000
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,4zau,95.2991
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,5jkv,98.3539
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,5mo4,98.9721
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,6gqj,99.9081
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,6jok,98.7952
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,5lf3,85.3659
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,7kk3,98.6628
+dynamicbind,DynamicBind,internal_steric_clash,internal_steric_clash,pooled,97.3813
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,1g5m,100.0000
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,2v5z,100.0000
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,3eyg,100.0000
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,3jy9,100.0000
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,3lxk,100.0000
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,11ue,100.0000
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,4ase,100.0000
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,4f65,100.0000
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,4tz4,100.0000
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,4zau,100.0000
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,5jkv,100.0000
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,5mo4,100.0000
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,6gqj,100.0000
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,6jok,100.0000
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,5lf3,100.0000
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,7kk3,100.0000
+dynamicbind,DynamicBind,aromatic_ring_flatness,aromatic_ring_flatness,pooled,100.0000
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,1g5m,100.0000
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,2v5z,100.0000
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,3eyg,100.0000
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,3jy9,100.0000
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,3lxk,100.0000
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,11ue,100.0000
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,4ase,100.0000
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,4f65,100.0000
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,4tz4,100.0000
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,4zau,100.0000
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,5jkv,99.7942
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,5mo4,100.0000
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,6gqj,100.0000
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,6jok,100.0000
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,5lf3,100.0000
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,7kk3,99.9045
+dynamicbind,DynamicBind,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,pooled,99.9812
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,1g5m,100.0000
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,2v5z,100.0000
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,3eyg,100.0000
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,3jy9,100.0000
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,3lxk,100.0000
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,11ue,100.0000
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,4ase,100.0000
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,4f65,100.0000
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,4tz4,100.0000
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,4zau,100.0000
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,5jkv,100.0000
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,5mo4,100.0000
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,6gqj,100.0000
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,6jok,100.0000
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,5lf3,100.0000
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,7kk3,100.0000
+dynamicbind,DynamicBind,double_bond_flatness,double_bond_flatness,pooled,100.0000
+dynamicbind,DynamicBind,internal_energy,internal_energy,1g5m,94.6502
+dynamicbind,DynamicBind,internal_energy,internal_energy,2v5z,100.0000
+dynamicbind,DynamicBind,internal_energy,internal_energy,3eyg,91.8495
+dynamicbind,DynamicBind,internal_energy,internal_energy,3jy9,94.0855
+dynamicbind,DynamicBind,internal_energy,internal_energy,3lxk,94.4518
+dynamicbind,DynamicBind,internal_energy,internal_energy,11ue,94.8905
+dynamicbind,DynamicBind,internal_energy,internal_energy,4ase,96.8235
+dynamicbind,DynamicBind,internal_energy,internal_energy,4f65,92.4242
+dynamicbind,DynamicBind,internal_energy,internal_energy,4tz4,100.0000
+dynamicbind,DynamicBind,internal_energy,internal_energy,4zau,92.3077
+dynamicbind,DynamicBind,internal_energy,internal_energy,5jkv,97.9424
+dynamicbind,DynamicBind,internal_energy,internal_energy,5mo4,98.9721
+dynamicbind,DynamicBind,internal_energy,internal_energy,6gqj,98.4375
+dynamicbind,DynamicBind,internal_energy,internal_energy,6jok,95.5823
+dynamicbind,DynamicBind,internal_energy,internal_energy,5lf3,91.4634
+dynamicbind,DynamicBind,internal_energy,internal_energy,7kk3,97.7077
+dynamicbind,DynamicBind,internal_energy,internal_energy,pooled,95.7243
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,1g5m,100.0000
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,2v5z,100.0000
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,3eyg,100.0000
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,3jy9,100.0000
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,3lxk,100.0000
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,11ue,100.0000
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,4ase,100.0000
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,4f65,100.0000
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,4tz4,100.0000
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,4zau,100.0000
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,5jkv,100.0000
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,5mo4,100.0000
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,6gqj,100.0000
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,6jok,100.0000
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,5lf3,100.0000
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,7kk3,100.0000
+dynamicbind,DynamicBind,protein-ligand_maximum_distance,prot_lig_maximum_distance,pooled,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,1g5m,0.0000
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,2v5z,28.3019
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,3eyg,4.2991
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,3jy9,27.4714
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,3lxk,13.4742
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,11ue,17.1533
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,4ase,28.0000
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,4f65,73.4848
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,4tz4,3.5714
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,4zau,31.1966
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,5jkv,0.8230
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,5mo4,2.0558
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,6gqj,13.1434
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,6jok,36.1446
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,5lf3,2.4390
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,7kk3,47.2779
+dynamicbind,DynamicBind,minimum_distance_to_protein,min_dist_protein,pooled,20.5523
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,1g5m,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,2v5z,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,3eyg,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,3jy9,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,3lxk,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,11ue,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,4ase,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,4f65,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,4tz4,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,4zau,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,5jkv,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,5mo4,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,6gqj,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,6jok,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,5lf3,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,7kk3,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,pooled,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,1g5m,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,2v5z,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,3eyg,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,3jy9,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,3lxk,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,11ue,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,4ase,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,4f65,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,4tz4,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,4zau,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,5jkv,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,5mo4,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,6gqj,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,6jok,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,5lf3,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,7kk3,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,pooled,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,1g5m,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,2v5z,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,3eyg,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,3jy9,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,3lxk,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,11ue,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,4ase,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,4f65,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,4tz4,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,4zau,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,5jkv,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,5mo4,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,6gqj,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,6jok,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,5lf3,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,7kk3,100.0000
+dynamicbind,DynamicBind,minimum_distance_to_waters,min_dist_waters,pooled,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,1g5m,3.2922
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,2v5z,67.4528
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,3eyg,80.1164
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,3jy9,99.0065
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,3lxk,88.5073
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,11ue,85.0365
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,4ase,90.7059
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,4f65,95.4545
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,4tz4,25.0000
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,4zau,85.4701
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,5jkv,19.1358
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,5mo4,73.2746
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,6gqj,87.9596
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,6jok,75.5020
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,5lf3,95.1220
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,7kk3,90.8309
+dynamicbind,DynamicBind,volume_overlap_with_protein,overlap_protein,pooled,72.6167
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,1g5m,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,2v5z,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,3eyg,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,3jy9,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,3lxk,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,11ue,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,4ase,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,4f65,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,4tz4,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,4zau,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,5jkv,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,5mo4,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,6gqj,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,6jok,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,5lf3,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,7kk3,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,pooled,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,1g5m,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,2v5z,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,3eyg,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,3jy9,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,3lxk,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,11ue,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,4ase,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,4f65,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,4tz4,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,4zau,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,5jkv,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,5mo4,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,6gqj,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,6jok,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,5lf3,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,7kk3,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,pooled,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,1g5m,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,2v5z,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,3eyg,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,3jy9,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,3lxk,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,11ue,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,4ase,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,4f65,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,4tz4,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,4zau,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,5jkv,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,5mo4,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,6gqj,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,6jok,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,5lf3,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,7kk3,100.0000
+dynamicbind,DynamicBind,volume_overlap_with_waters,overlap_waters,pooled,100.0000
+dynamicbind,DynamicBind,All tests,All tests,1g5m,90.2214
+dynamicbind,DynamicBind,All tests,All tests,2v5z,94.8562
+dynamicbind,DynamicBind,All tests,All tests,3eyg,93.9927
+dynamicbind,DynamicBind,All tests,All tests,3jy9,96.0517
+dynamicbind,DynamicBind,All tests,All tests,3lxk,94.9362
+dynamicbind,DynamicBind,All tests,All tests,11ue,94.9948
+dynamicbind,DynamicBind,All tests,All tests,4ase,95.8880
+dynamicbind,DynamicBind,All tests,All tests,4f65,98.1602
+dynamicbind,DynamicBind,All tests,All tests,4tz4,91.8367
+dynamicbind,DynamicBind,All tests,All tests,4zau,95.4416
+dynamicbind,DynamicBind,All tests,All tests,5jkv,91.2306
+dynamicbind,DynamicBind,All tests,All tests,5mo4,93.9445
+dynamicbind,DynamicBind,All tests,All tests,6gqj,95.2118
+dynamicbind,DynamicBind,All tests,All tests,6jok,95.5058
+dynamicbind,DynamicBind,All tests,All tests,5lf3,94.0186
+dynamicbind,DynamicBind,All tests,All tests,7kk3,96.8754
+dynamicbind,DynamicBind,All tests,All tests,pooled,94.5729
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,1g5m,100.0000
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,2v5z,100.0000
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,3eyg,100.0000
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,3jy9,100.0000
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,3lxk,100.0000
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,11ue,100.0000
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,4ase,100.0000
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,4f65,100.0000
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,4tz4,100.0000
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,4zau,100.0000
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,5jkv,100.0000
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,5mo4,100.0000
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,6gqj,100.0000
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,6jok,100.0000
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,5lf3,100.0000
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,7kk3,100.0000
+gnina,GNINA 1.3,mol_pred_loaded,mol_pred_loaded,pooled,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,1g5m,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,2v5z,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,3eyg,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,3jy9,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,3lxk,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,11ue,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,4ase,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,4f65,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,4tz4,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,4zau,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,5jkv,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,5mo4,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,6gqj,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,6jok,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,5lf3,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,7kk3,100.0000
+gnina,GNINA 1.3,mol_cond_loaded,mol_cond_loaded,pooled,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,1g5m,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,2v5z,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,3eyg,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,3jy9,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,3lxk,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,11ue,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,4ase,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,4f65,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,4tz4,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,4zau,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,5jkv,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,5mo4,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,6gqj,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,6jok,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,5lf3,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,7kk3,100.0000
+gnina,GNINA 1.3,sanitization,sanitization,pooled,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,1g5m,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,2v5z,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,3eyg,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,3jy9,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,3lxk,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,11ue,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,4ase,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,4f65,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,4tz4,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,4zau,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,5jkv,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,5mo4,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,6gqj,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,6jok,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,5lf3,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,7kk3,100.0000
+gnina,GNINA 1.3,inchi_convertible,inchi_convertible,pooled,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,1g5m,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,2v5z,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,3eyg,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,3jy9,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,3lxk,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,11ue,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,4ase,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,4f65,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,4tz4,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,4zau,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,5jkv,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,5mo4,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,6gqj,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,6jok,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,5lf3,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,7kk3,100.0000
+gnina,GNINA 1.3,all_atoms_connected,all_atoms_connected,pooled,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,1g5m,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,2v5z,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,3eyg,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,3jy9,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,3lxk,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,11ue,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,4ase,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,4f65,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,4tz4,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,4zau,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,5jkv,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,5mo4,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,6gqj,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,6jok,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,5lf3,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,7kk3,100.0000
+gnina,GNINA 1.3,bond_lengths,bond_lengths,pooled,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,1g5m,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,2v5z,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,3eyg,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,3jy9,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,3lxk,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,11ue,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,4ase,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,4f65,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,4tz4,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,4zau,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,5jkv,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,5mo4,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,6gqj,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,6jok,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,5lf3,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,7kk3,100.0000
+gnina,GNINA 1.3,bond_angles,bond_angles,pooled,100.0000
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,1g5m,97.9339
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,2v5z,97.5845
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,3eyg,98.4835
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,3jy9,99.6947
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,3lxk,97.8638
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,11ue,98.1273
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,4ase,97.7300
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,4f65,100.0000
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,4tz4,99.1071
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,4zau,100.0000
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,5jkv,98.7654
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,5mo4,99.4109
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,6gqj,99.9078
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,6jok,98.7552
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,5lf3,100.0000
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,7kk3,99.8922
+gnina,GNINA 1.3,internal_steric_clash,internal_steric_clash,pooled,98.9535
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,1g5m,100.0000
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,2v5z,100.0000
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,3eyg,100.0000
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,3jy9,100.0000
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,3lxk,100.0000
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,11ue,100.0000
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,4ase,100.0000
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,4f65,100.0000
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,4tz4,100.0000
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,4zau,100.0000
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,5jkv,100.0000
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,5mo4,100.0000
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,6gqj,100.0000
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,6jok,100.0000
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,5lf3,100.0000
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,7kk3,100.0000
+gnina,GNINA 1.3,aromatic_ring_flatness,aromatic_ring_flatness,pooled,100.0000
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,1g5m,100.0000
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,2v5z,100.0000
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,3eyg,100.0000
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,3jy9,100.0000
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,3lxk,100.0000
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,11ue,100.0000
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,4ase,100.0000
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,4f65,100.0000
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,4tz4,100.0000
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,4zau,100.0000
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,5jkv,100.0000
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,5mo4,100.0000
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,6gqj,100.0000
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,6jok,100.0000
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,5lf3,100.0000
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,7kk3,99.8922
+gnina,GNINA 1.3,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,pooled,99.9933
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,1g5m,100.0000
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,2v5z,100.0000
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,3eyg,100.0000
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,3jy9,100.0000
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,3lxk,100.0000
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,11ue,100.0000
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,4ase,100.0000
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,4f65,100.0000
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,4tz4,100.0000
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,4zau,100.0000
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,5jkv,100.0000
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,5mo4,100.0000
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,6gqj,100.0000
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,6jok,100.0000
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,5lf3,100.0000
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,7kk3,100.0000
+gnina,GNINA 1.3,double_bond_flatness,double_bond_flatness,pooled,100.0000
+gnina,GNINA 1.3,internal_energy,internal_energy,1g5m,96.6942
+gnina,GNINA 1.3,internal_energy,internal_energy,2v5z,90.8213
+gnina,GNINA 1.3,internal_energy,internal_energy,3eyg,94.6691
+gnina,GNINA 1.3,internal_energy,internal_energy,3jy9,98.0662
+gnina,GNINA 1.3,internal_energy,internal_energy,3lxk,92.1228
+gnina,GNINA 1.3,internal_energy,internal_energy,11ue,91.0112
+gnina,GNINA 1.3,internal_energy,internal_energy,4ase,92.4731
+gnina,GNINA 1.3,internal_energy,internal_energy,4f65,96.0317
+gnina,GNINA 1.3,internal_energy,internal_energy,4tz4,97.3214
+gnina,GNINA 1.3,internal_energy,internal_energy,4zau,93.9914
+gnina,GNINA 1.3,internal_energy,internal_energy,5jkv,98.9712
+gnina,GNINA 1.3,internal_energy,internal_energy,5mo4,97.4963
+gnina,GNINA 1.3,internal_energy,internal_energy,6gqj,95.1152
+gnina,GNINA 1.3,internal_energy,internal_energy,6jok,94.6058
+gnina,GNINA 1.3,internal_energy,internal_energy,5lf3,97.6190
+gnina,GNINA 1.3,internal_energy,internal_energy,7kk3,94.9353
+gnina,GNINA 1.3,internal_energy,internal_energy,pooled,95.1216
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,1g5m,100.0000
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,2v5z,100.0000
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,3eyg,100.0000
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,3jy9,100.0000
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,3lxk,100.0000
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,11ue,100.0000
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,4ase,100.0000
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,4f65,100.0000
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,4tz4,100.0000
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,4zau,100.0000
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,5jkv,100.0000
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,5mo4,100.0000
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,6gqj,100.0000
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,6jok,100.0000
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,5lf3,100.0000
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,7kk3,100.0000
+gnina,GNINA 1.3,protein-ligand_maximum_distance,prot_lig_maximum_distance,pooled,100.0000
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,1g5m,100.0000
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,2v5z,75.8454
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,3eyg,99.9081
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,3jy9,99.9491
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,3lxk,97.0628
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,11ue,89.5131
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,4ase,92.8315
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,4f65,99.2063
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,4tz4,100.0000
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,4zau,100.0000
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,5jkv,100.0000
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,5mo4,98.0854
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,6gqj,93.0876
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,6jok,100.0000
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,5lf3,100.0000
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,7kk3,100.0000
+gnina,GNINA 1.3,minimum_distance_to_protein,min_dist_protein,pooled,96.5931
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,1g5m,100.0000
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,2v5z,98.5507
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,3eyg,100.0000
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,3jy9,100.0000
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,3lxk,100.0000
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,11ue,100.0000
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,4ase,100.0000
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,4f65,100.0000
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,4tz4,100.0000
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,4zau,100.0000
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,5jkv,100.0000
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,5mo4,100.0000
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,6gqj,100.0000
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,6jok,100.0000
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,5lf3,100.0000
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,7kk3,100.0000
+gnina,GNINA 1.3,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,pooled,99.9094
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,1g5m,100.0000
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,2v5z,100.0000
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,3eyg,100.0000
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,3jy9,100.0000
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,3lxk,100.0000
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,11ue,100.0000
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,4ase,100.0000
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,4f65,100.0000
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,4tz4,100.0000
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,4zau,100.0000
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,5jkv,100.0000
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,5mo4,100.0000
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,6gqj,100.0000
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,6jok,100.0000
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,5lf3,100.0000
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,7kk3,100.0000
+gnina,GNINA 1.3,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,pooled,100.0000
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,1g5m,100.0000
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,2v5z,98.5507
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,3eyg,100.0000
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,3jy9,100.0000
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,3lxk,100.0000
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,11ue,100.0000
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,4ase,100.0000
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,4f65,100.0000
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,4tz4,100.0000
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,4zau,100.0000
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,5jkv,100.0000
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,5mo4,100.0000
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,6gqj,100.0000
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,6jok,100.0000
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,5lf3,100.0000
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,7kk3,100.0000
+gnina,GNINA 1.3,minimum_distance_to_waters,min_dist_waters,pooled,99.9094
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,1g5m,100.0000
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,2v5z,97.5845
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,3eyg,100.0000
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,3jy9,100.0000
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,3lxk,100.0000
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,11ue,99.6255
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,4ase,100.0000
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,4f65,100.0000
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,4tz4,100.0000
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,4zau,100.0000
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,5jkv,100.0000
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,5mo4,100.0000
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,6gqj,99.5392
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,6jok,100.0000
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,5lf3,100.0000
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,7kk3,100.0000
+gnina,GNINA 1.3,volume_overlap_with_protein,overlap_protein,pooled,99.7968
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,1g5m,100.0000
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,2v5z,100.0000
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,3eyg,100.0000
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,3jy9,100.0000
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,3lxk,100.0000
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,11ue,100.0000
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,4ase,100.0000
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,4f65,100.0000
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,4tz4,100.0000
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,4zau,100.0000
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,5jkv,100.0000
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,5mo4,100.0000
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,6gqj,100.0000
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,6jok,100.0000
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,5lf3,100.0000
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,7kk3,100.0000
+gnina,GNINA 1.3,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,pooled,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,1g5m,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,2v5z,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,3eyg,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,3jy9,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,3lxk,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,11ue,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,4ase,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,4f65,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,4tz4,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,4zau,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,5jkv,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,5mo4,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,6gqj,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,6jok,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,5lf3,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,7kk3,100.0000
+gnina,GNINA 1.3,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,pooled,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,1g5m,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,2v5z,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,3eyg,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,3jy9,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,3lxk,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,11ue,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,4ase,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,4f65,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,4tz4,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,4zau,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,5jkv,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,5mo4,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,6gqj,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,6jok,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,5lf3,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,7kk3,100.0000
+gnina,GNINA 1.3,volume_overlap_with_waters,overlap_waters,pooled,100.0000
+gnina,GNINA 1.3,All tests,All tests,1g5m,99.7442
+gnina,GNINA 1.3,All tests,All tests,2v5z,98.0446
+gnina,GNINA 1.3,All tests,All tests,3eyg,99.6696
+gnina,GNINA 1.3,All tests,All tests,3jy9,99.8909
+gnina,GNINA 1.3,All tests,All tests,3lxk,99.3833
+gnina,GNINA 1.3,All tests,All tests,11ue,98.9656
+gnina,GNINA 1.3,All tests,All tests,4ase,99.1921
+gnina,GNINA 1.3,All tests,All tests,4f65,99.7732
+gnina,GNINA 1.3,All tests,All tests,4tz4,99.8299
+gnina,GNINA 1.3,All tests,All tests,4zau,99.7139
+gnina,GNINA 1.3,All tests,All tests,5jkv,99.8922
+gnina,GNINA 1.3,All tests,All tests,5mo4,99.7616
+gnina,GNINA 1.3,All tests,All tests,6gqj,99.4119
+gnina,GNINA 1.3,All tests,All tests,6jok,99.6839
+gnina,GNINA 1.3,All tests,All tests,5lf3,99.8866
+gnina,GNINA 1.3,All tests,All tests,7kk3,99.7486
+gnina,GNINA 1.3,All tests,All tests,pooled,99.5370
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,1g5m,100.0000
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,2v5z,100.0000
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,3eyg,100.0000
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,3jy9,100.0000
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,3lxk,100.0000
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,11ue,100.0000
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,4ase,100.0000
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,4f65,100.0000
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,4tz4,100.0000
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,4zau,100.0000
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,5jkv,100.0000
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,5mo4,100.0000
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,6gqj,100.0000
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,6jok,100.0000
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,5lf3,100.0000
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,7kk3,100.0000
+qvina,QVina2,mol_pred_loaded,mol_pred_loaded,pooled,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,1g5m,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,2v5z,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,3eyg,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,3jy9,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,3lxk,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,11ue,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,4ase,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,4f65,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,4tz4,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,4zau,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,5jkv,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,5mo4,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,6gqj,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,6jok,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,5lf3,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,7kk3,100.0000
+qvina,QVina2,mol_cond_loaded,mol_cond_loaded,pooled,100.0000
+qvina,QVina2,sanitization,sanitization,1g5m,100.0000
+qvina,QVina2,sanitization,sanitization,2v5z,100.0000
+qvina,QVina2,sanitization,sanitization,3eyg,100.0000
+qvina,QVina2,sanitization,sanitization,3jy9,100.0000
+qvina,QVina2,sanitization,sanitization,3lxk,100.0000
+qvina,QVina2,sanitization,sanitization,11ue,100.0000
+qvina,QVina2,sanitization,sanitization,4ase,100.0000
+qvina,QVina2,sanitization,sanitization,4f65,100.0000
+qvina,QVina2,sanitization,sanitization,4tz4,100.0000
+qvina,QVina2,sanitization,sanitization,4zau,100.0000
+qvina,QVina2,sanitization,sanitization,5jkv,100.0000
+qvina,QVina2,sanitization,sanitization,5mo4,100.0000
+qvina,QVina2,sanitization,sanitization,6gqj,100.0000
+qvina,QVina2,sanitization,sanitization,6jok,100.0000
+qvina,QVina2,sanitization,sanitization,5lf3,100.0000
+qvina,QVina2,sanitization,sanitization,7kk3,100.0000
+qvina,QVina2,sanitization,sanitization,pooled,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,1g5m,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,2v5z,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,3eyg,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,3jy9,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,3lxk,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,11ue,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,4ase,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,4f65,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,4tz4,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,4zau,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,5jkv,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,5mo4,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,6gqj,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,6jok,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,5lf3,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,7kk3,100.0000
+qvina,QVina2,inchi_convertible,inchi_convertible,pooled,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,1g5m,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,2v5z,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,3eyg,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,3jy9,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,3lxk,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,11ue,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,4ase,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,4f65,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,4tz4,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,4zau,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,5jkv,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,5mo4,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,6gqj,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,6jok,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,5lf3,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,7kk3,100.0000
+qvina,QVina2,all_atoms_connected,all_atoms_connected,pooled,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,1g5m,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,2v5z,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,3eyg,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,3jy9,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,3lxk,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,11ue,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,4ase,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,4f65,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,4tz4,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,4zau,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,5jkv,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,5mo4,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,6gqj,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,6jok,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,5lf3,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,7kk3,100.0000
+qvina,QVina2,bond_lengths,bond_lengths,pooled,100.0000
+qvina,QVina2,bond_angles,bond_angles,1g5m,100.0000
+qvina,QVina2,bond_angles,bond_angles,2v5z,100.0000
+qvina,QVina2,bond_angles,bond_angles,3eyg,100.0000
+qvina,QVina2,bond_angles,bond_angles,3jy9,100.0000
+qvina,QVina2,bond_angles,bond_angles,3lxk,100.0000
+qvina,QVina2,bond_angles,bond_angles,11ue,100.0000
+qvina,QVina2,bond_angles,bond_angles,4ase,100.0000
+qvina,QVina2,bond_angles,bond_angles,4f65,100.0000
+qvina,QVina2,bond_angles,bond_angles,4tz4,100.0000
+qvina,QVina2,bond_angles,bond_angles,4zau,100.0000
+qvina,QVina2,bond_angles,bond_angles,5jkv,100.0000
+qvina,QVina2,bond_angles,bond_angles,5mo4,100.0000
+qvina,QVina2,bond_angles,bond_angles,6gqj,100.0000
+qvina,QVina2,bond_angles,bond_angles,6jok,100.0000
+qvina,QVina2,bond_angles,bond_angles,5lf3,100.0000
+qvina,QVina2,bond_angles,bond_angles,7kk3,100.0000
+qvina,QVina2,bond_angles,bond_angles,pooled,100.0000
+qvina,QVina2,internal_steric_clash,internal_steric_clash,1g5m,98.7603
+qvina,QVina2,internal_steric_clash,internal_steric_clash,2v5z,100.0000
+qvina,QVina2,internal_steric_clash,internal_steric_clash,3eyg,99.6792
+qvina,QVina2,internal_steric_clash,internal_steric_clash,3jy9,99.6947
+qvina,QVina2,internal_steric_clash,internal_steric_clash,3lxk,99.5995
+qvina,QVina2,internal_steric_clash,internal_steric_clash,11ue,99.6255
+qvina,QVina2,internal_steric_clash,internal_steric_clash,4ase,99.8805
+qvina,QVina2,internal_steric_clash,internal_steric_clash,4f65,99.2063
+qvina,QVina2,internal_steric_clash,internal_steric_clash,4tz4,100.0000
+qvina,QVina2,internal_steric_clash,internal_steric_clash,4zau,100.0000
+qvina,QVina2,internal_steric_clash,internal_steric_clash,5jkv,98.9712
+qvina,QVina2,internal_steric_clash,internal_steric_clash,5mo4,100.0000
+qvina,QVina2,internal_steric_clash,internal_steric_clash,6gqj,99.9078
+qvina,QVina2,internal_steric_clash,internal_steric_clash,6jok,100.0000
+qvina,QVina2,internal_steric_clash,internal_steric_clash,5lf3,96.6102
+qvina,QVina2,internal_steric_clash,internal_steric_clash,7kk3,100.0000
+qvina,QVina2,internal_steric_clash,internal_steric_clash,pooled,99.4959
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,1g5m,100.0000
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,2v5z,100.0000
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,3eyg,100.0000
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,3jy9,100.0000
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,3lxk,100.0000
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,11ue,100.0000
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,4ase,100.0000
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,4f65,100.0000
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,4tz4,100.0000
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,4zau,100.0000
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,5jkv,100.0000
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,5mo4,100.0000
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,6gqj,100.0000
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,6jok,100.0000
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,5lf3,100.0000
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,7kk3,100.0000
+qvina,QVina2,aromatic_ring_flatness,aromatic_ring_flatness,pooled,100.0000
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,1g5m,100.0000
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,2v5z,100.0000
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,3eyg,100.0000
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,3jy9,100.0000
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,3lxk,100.0000
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,11ue,100.0000
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,4ase,100.0000
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,4f65,100.0000
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,4tz4,100.0000
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,4zau,100.0000
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,5jkv,100.0000
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,5mo4,100.0000
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,6gqj,100.0000
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,6jok,100.0000
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,5lf3,100.0000
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,7kk3,99.8922
+qvina,QVina2,non-aromatic_ring_non-flatness,non-aromatic_ring_non-flatness,pooled,99.9933
+qvina,QVina2,double_bond_flatness,double_bond_flatness,1g5m,100.0000
+qvina,QVina2,double_bond_flatness,double_bond_flatness,2v5z,100.0000
+qvina,QVina2,double_bond_flatness,double_bond_flatness,3eyg,100.0000
+qvina,QVina2,double_bond_flatness,double_bond_flatness,3jy9,100.0000
+qvina,QVina2,double_bond_flatness,double_bond_flatness,3lxk,100.0000
+qvina,QVina2,double_bond_flatness,double_bond_flatness,11ue,100.0000
+qvina,QVina2,double_bond_flatness,double_bond_flatness,4ase,100.0000
+qvina,QVina2,double_bond_flatness,double_bond_flatness,4f65,100.0000
+qvina,QVina2,double_bond_flatness,double_bond_flatness,4tz4,100.0000
+qvina,QVina2,double_bond_flatness,double_bond_flatness,4zau,100.0000
+qvina,QVina2,double_bond_flatness,double_bond_flatness,5jkv,100.0000
+qvina,QVina2,double_bond_flatness,double_bond_flatness,5mo4,100.0000
+qvina,QVina2,double_bond_flatness,double_bond_flatness,6gqj,100.0000
+qvina,QVina2,double_bond_flatness,double_bond_flatness,6jok,100.0000
+qvina,QVina2,double_bond_flatness,double_bond_flatness,5lf3,100.0000
+qvina,QVina2,double_bond_flatness,double_bond_flatness,7kk3,100.0000
+qvina,QVina2,double_bond_flatness,double_bond_flatness,pooled,100.0000
+qvina,QVina2,internal_energy,internal_energy,1g5m,98.3471
+qvina,QVina2,internal_energy,internal_energy,2v5z,98.0676
+qvina,QVina2,internal_energy,internal_energy,3eyg,98.8543
+qvina,QVina2,internal_energy,internal_energy,3jy9,99.6947
+qvina,QVina2,internal_energy,internal_energy,3lxk,97.8638
+qvina,QVina2,internal_energy,internal_energy,11ue,97.3783
+qvina,QVina2,internal_energy,internal_energy,4ase,99.2832
+qvina,QVina2,internal_energy,internal_energy,4f65,93.6508
+qvina,QVina2,internal_energy,internal_energy,4tz4,100.0000
+qvina,QVina2,internal_energy,internal_energy,4zau,98.7124
+qvina,QVina2,internal_energy,internal_energy,5jkv,98.5597
+qvina,QVina2,internal_energy,internal_energy,5mo4,98.8218
+qvina,QVina2,internal_energy,internal_energy,6gqj,99.2627
+qvina,QVina2,internal_energy,internal_energy,6jok,96.6805
+qvina,QVina2,internal_energy,internal_energy,5lf3,100.0000
+qvina,QVina2,internal_energy,internal_energy,7kk3,99.0302
+qvina,QVina2,internal_energy,internal_energy,pooled,98.3879
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,1g5m,100.0000
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,2v5z,100.0000
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,3eyg,100.0000
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,3jy9,100.0000
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,3lxk,100.0000
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,11ue,100.0000
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,4ase,100.0000
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,4f65,100.0000
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,4tz4,100.0000
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,4zau,100.0000
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,5jkv,100.0000
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,5mo4,100.0000
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,6gqj,100.0000
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,6jok,100.0000
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,5lf3,100.0000
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,7kk3,100.0000
+qvina,QVina2,protein-ligand_maximum_distance,prot_lig_maximum_distance,pooled,100.0000
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,1g5m,100.0000
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,2v5z,89.8551
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,3eyg,100.0000
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,3jy9,100.0000
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,3lxk,99.5995
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,11ue,100.0000
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,4ase,99.7611
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,4f65,100.0000
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,4tz4,99.1071
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,4zau,100.0000
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,5jkv,99.7942
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,5mo4,99.5582
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,6gqj,98.5253
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,6jok,100.0000
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,5lf3,100.0000
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,7kk3,100.0000
+qvina,QVina2,minimum_distance_to_protein,min_dist_protein,pooled,99.1375
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,1g5m,100.0000
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,2v5z,100.0000
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,3eyg,100.0000
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,3jy9,100.0000
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,3lxk,100.0000
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,11ue,100.0000
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,4ase,100.0000
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,4f65,100.0000
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,4tz4,100.0000
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,4zau,100.0000
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,5jkv,100.0000
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,5mo4,100.0000
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,6gqj,100.0000
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,6jok,100.0000
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,5lf3,100.0000
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,7kk3,100.0000
+qvina,QVina2,minimum_distance_to_organic_cofactors,min_dist_organic_cofactors,pooled,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,1g5m,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,2v5z,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,3eyg,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,3jy9,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,3lxk,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,11ue,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,4ase,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,4f65,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,4tz4,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,4zau,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,5jkv,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,5mo4,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,6gqj,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,6jok,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,5lf3,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,7kk3,100.0000
+qvina,QVina2,minimum_distance_to_inorganic_cofactors,min_dist_inorganic_cofactors,pooled,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,1g5m,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,2v5z,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,3eyg,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,3jy9,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,3lxk,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,11ue,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,4ase,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,4f65,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,4tz4,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,4zau,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,5jkv,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,5mo4,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,6gqj,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,6jok,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,5lf3,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,7kk3,100.0000
+qvina,QVina2,minimum_distance_to_waters,min_dist_waters,pooled,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,1g5m,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,2v5z,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,3eyg,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,3jy9,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,3lxk,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,11ue,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,4ase,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,4f65,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,4tz4,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,4zau,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,5jkv,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,5mo4,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,6gqj,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,6jok,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,5lf3,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,7kk3,100.0000
+qvina,QVina2,volume_overlap_with_protein,overlap_protein,pooled,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,1g5m,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,2v5z,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,3eyg,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,3jy9,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,3lxk,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,11ue,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,4ase,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,4f65,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,4tz4,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,4zau,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,5jkv,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,5mo4,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,6gqj,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,6jok,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,5lf3,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,7kk3,100.0000
+qvina,QVina2,volume_overlap_with_organic_cofactors,overlap_organic_cofactors,pooled,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,1g5m,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,2v5z,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,3eyg,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,3jy9,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,3lxk,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,11ue,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,4ase,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,4f65,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,4tz4,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,4zau,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,5jkv,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,5mo4,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,6gqj,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,6jok,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,5lf3,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,7kk3,100.0000
+qvina,QVina2,volume_overlap_with_inorganic_cofactors,overlap_inorganic_cofactors,pooled,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,1g5m,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,2v5z,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,3eyg,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,3jy9,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,3lxk,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,11ue,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,4ase,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,4f65,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,4tz4,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,4zau,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,5jkv,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,5mo4,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,6gqj,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,6jok,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,5lf3,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,7kk3,100.0000
+qvina,QVina2,volume_overlap_with_waters,overlap_waters,pooled,100.0000
+qvina,QVina2,All tests,All tests,1g5m,99.8623
+qvina,QVina2,All tests,All tests,2v5z,99.4249
+qvina,QVina2,All tests,All tests,3eyg,99.9302
+qvina,QVina2,All tests,All tests,3jy9,99.9709
+qvina,QVina2,All tests,All tests,3lxk,99.8601
+qvina,QVina2,All tests,All tests,11ue,99.8573
+qvina,QVina2,All tests,All tests,4ase,99.9488
+qvina,QVina2,All tests,All tests,4f65,99.6599
+qvina,QVina2,All tests,All tests,4tz4,99.9575
+qvina,QVina2,All tests,All tests,4zau,99.9387
+qvina,QVina2,All tests,All tests,5jkv,99.8726
+qvina,QVina2,All tests,All tests,5mo4,99.9229
+qvina,QVina2,All tests,All tests,6gqj,99.8903
+qvina,QVina2,All tests,All tests,6jok,99.8419
+qvina,QVina2,All tests,All tests,5lf3,99.8386
+qvina,QVina2,All tests,All tests,7kk3,99.9487
+qvina,QVina2,All tests,All tests,pooled,99.8578

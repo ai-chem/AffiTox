@@ -1,55 +1,55 @@
 {
-  "N_panel": 11180,
+  "N_panel": 10711,
   "by_target": [
     {
       "pdb_id": "1g5m",
-      "n": 252,
+      "n": 244,
       "has_ligand_id": true,
-      "qvina": 252,
-      "gnina": 250,
-      "plapt": 252,
-      "dynamicbind": 252,
-      "boltz2": 252
+      "qvina": 244,
+      "gnina": 242,
+      "plapt": 244,
+      "dynamicbind": 244,
+      "boltz2": 244
     },
     {
       "pdb_id": "2v5z",
-      "n": 246,
+      "n": 213,
       "has_ligand_id": true,
-      "qvina": 245,
-      "gnina": 245,
-      "plapt": 246,
-      "dynamicbind": 245,
-      "boltz2": 241
+      "qvina": 212,
+      "gnina": 212,
+      "plapt": 213,
+      "dynamicbind": 212,
+      "boltz2": 208
     },
     {
       "pdb_id": "3eyg",
-      "n": 2255,
+      "n": 2234,
       "has_ligand_id": true,
-      "qvina": 2221,
-      "gnina": 2215,
-      "plapt": 2255,
-      "dynamicbind": 2254,
-      "boltz2": 2253
+      "qvina": 2201,
+      "gnina": 2195,
+      "plapt": 2234,
+      "dynamicbind": 2233,
+      "boltz2": 2232
     },
     {
       "pdb_id": "3jy9",
-      "n": 2027,
+      "n": 2014,
       "has_ligand_id": true,
-      "qvina": 1998,
-      "gnina": 1999,
-      "plapt": 2027,
-      "dynamicbind": 2026,
-      "boltz2": 2022
+      "qvina": 1985,
+      "gnina": 1986,
+      "plapt": 2014,
+      "dynamicbind": 2013,
+      "boltz2": 2009
     },
     {
       "pdb_id": "3lxk",
-      "n": 786,
+      "n": 758,
       "has_ligand_id": true,
-      "qvina": 778,
-      "gnina": 778,
-      "plapt": 786,
-      "dynamicbind": 785,
-      "boltz2": 783
+      "qvina": 751,
+      "gnina": 751,
+      "plapt": 758,
+      "dynamicbind": 757,
+      "boltz2": 755
     },
     {
       "pdb_id": "11ue",
@@ -63,73 +63,73 @@
     },
     {
       "pdb_id": "4ase",
-      "n": 875,
+      "n": 851,
       "has_ligand_id": true,
-      "qvina": 862,
-      "gnina": 862,
-      "plapt": 875,
-      "dynamicbind": 875,
-      "boltz2": 874
+      "qvina": 838,
+      "gnina": 838,
+      "plapt": 851,
+      "dynamicbind": 851,
+      "boltz2": 850
     },
     {
       "pdb_id": "4f65",
-      "n": 134,
-      "has_ligand_id": true,
-      "qvina": 127,
-      "gnina": 127,
-      "plapt": 134,
-      "dynamicbind": 134,
-      "boltz2": 134
-    },
-    {
-      "pdb_id": "4tz4",
-      "n": 127,
+      "n": 133,
       "has_ligand_id": true,
       "qvina": 126,
       "gnina": 126,
-      "plapt": 127,
-      "dynamicbind": 127,
-      "boltz2": 127
+      "plapt": 133,
+      "dynamicbind": 133,
+      "boltz2": 133
+    },
+    {
+      "pdb_id": "4tz4",
+      "n": 113,
+      "has_ligand_id": true,
+      "qvina": 112,
+      "gnina": 112,
+      "plapt": 113,
+      "dynamicbind": 113,
+      "boltz2": 113
     },
     {
       "pdb_id": "4zau",
-      "n": 251,
+      "n": 235,
       "has_ligand_id": true,
-      "qvina": 247,
-      "gnina": 247,
-      "plapt": 251,
-      "dynamicbind": 251,
-      "boltz2": 235
+      "qvina": 233,
+      "gnina": 233,
+      "plapt": 235,
+      "dynamicbind": 235,
+      "boltz2": 219
     },
     {
       "pdb_id": "5jkv",
-      "n": 548,
+      "n": 488,
       "has_ligand_id": true,
-      "qvina": 547,
-      "gnina": 547,
-      "plapt": 548,
-      "dynamicbind": 547,
-      "boltz2": 546
+      "qvina": 487,
+      "gnina": 487,
+      "plapt": 488,
+      "dynamicbind": 487,
+      "boltz2": 486
     },
     {
       "pdb_id": "5mo4",
-      "n": 693,
+      "n": 682,
       "has_ligand_id": true,
-      "qvina": 693,
-      "gnina": 693,
-      "plapt": 693,
-      "dynamicbind": 693,
-      "boltz2": 690
+      "qvina": 682,
+      "gnina": 682,
+      "plapt": 682,
+      "dynamicbind": 682,
+      "boltz2": 679
     },
     {
       "pdb_id": "6gqj",
-      "n": 1298,
+      "n": 1089,
       "has_ligand_id": true,
-      "qvina": 1293,
-      "gnina": 1293,
-      "plapt": 1298,
-      "dynamicbind": 1298,
-      "boltz2": 1298
+      "qvina": 1085,
+      "gnina": 1085,
+      "plapt": 1089,
+      "dynamicbind": 1089,
+      "boltz2": 1089
     },
     {
       "pdb_id": "6jok",
@@ -143,23 +143,23 @@
     },
     {
       "pdb_id": "5lf3",
-      "n": 88,
+      "n": 83,
       "has_ligand_id": true,
-      "qvina": 88,
-      "gnina": 88,
-      "plapt": 88,
-      "dynamicbind": 88,
-      "boltz2": 88
+      "qvina": 83,
+      "gnina": 83,
+      "plapt": 83,
+      "dynamicbind": 83,
+      "boltz2": 83
     },
     {
       "pdb_id": "7kk3",
-      "n": 1075,
+      "n": 1049,
       "has_ligand_id": true,
-      "qvina": 953,
-      "gnina": 954,
-      "plapt": 1075,
-      "dynamicbind": 1073,
-      "boltz2": 1073
+      "qvina": 928,
+      "gnina": 929,
+      "plapt": 1049,
+      "dynamicbind": 1047,
+      "boltz2": 1047
     }
   ]
 }

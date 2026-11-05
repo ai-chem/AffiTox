@@ -1,0 +1,3 @@
+target,cognate_resname,method,n_ref_heavy_atoms,rmsd_angstrom,rmsd_method,status,pose_path,note
+5lf3,BO2,gnina,28,9.811,hungarian_element_match,ok,analysis/cognate_rmsd_work/docked/gnina/5lf3_out.sdf,
+5lf3,BO2,qvina,28,3.103,hungarian_element_match,ok,analysis/cognate_rmsd_work/docked/qvina/5lf3_out.pdbqt,

@@ -5,8 +5,8 @@ Prepare PoseBusters inputs from docking results and optionally run checks.
 Pipeline:
 1) Collect poses from docking outputs:
    - gnina/qvina: convert ligand_*_out.pdbqt -> top-1 SDF via Open Babel
-   - dynamicbind: reuse rank1_ligand_*.sdf and matching rank1_receptor_*.pdb
-     from index*_idx_* folders
+   - dynamicbind: rank1 ligand SDF gets canonical SMILES bond orders, paired
+     with the rank1 receptor PDB from the same index*_idx_* folder
 2) Build a PoseBusters table CSV with columns:
    mol_pred,mol_cond,protein,method,ligand
 3) Optionally run:
@@ -22,7 +22,6 @@ from __future__ import annotations
 import argparse
 import csv
 import re
-import shutil
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
@@ -31,6 +30,7 @@ try:
     from .pose_chemistry import (
         TEMPLATE_MARKER,
         pdbqt_to_template_mol,
+        sdf_to_template_mol,
         write_pose_molecule,
     )
 except ImportError:
@@ -38,6 +38,7 @@ except ImportError:
     from pose_chemistry import (
         TEMPLATE_MARKER,
         pdbqt_to_template_mol,
+        sdf_to_template_mol,
         write_pose_molecule,
     )
 
@@ -111,7 +112,11 @@ def _discover_proteins(poses_dir: Path) -> List[str]:
 
 
 def _load_smiles_by_ligand(protein: str) -> Dict[str, str]:
-    from docking_benchmark2.ligand_ids import format_ligand_id, vina_legacy_id
+    from docking_benchmark2.ligand_ids import (
+        format_ligand_id,
+        parse_ligand_number,
+        vina_legacy_id,
+    )
 
     curated = PROJECT_ROOT / "input" / "ligands_curated" / f"{protein.lower()}_ligands.csv"
     csv_name = PDB_TO_LIGAND_CSV.get(protein.lower())
@@ -130,9 +135,13 @@ def _load_smiles_by_ligand(protein: str) -> Dict[str, str]:
         if not smiles:
             continue
         ligand_id = row.get("ligand_id") or format_ligand_id(row_index)
-        out[ligand_id] = smiles
-        out[vina_legacy_id(row_index)] = smiles
-        out[format_ligand_id(row_index)] = smiles
+        number = parse_ligand_number(ligand_id)
+        if number is None:
+            continue
+        # Key only by the ligand's own number. Row order is not the ligand number
+        # after duplicate collapse, and must not overwrite another ligand's SMILES.
+        out[format_ligand_id(number)] = smiles
+        out[vina_legacy_id(number)] = smiles
     return out
 
 
@@ -170,6 +179,27 @@ def _convert_pdbqt_to_sdf_top1(
         write_pose_molecule(fixed, sdf_path)
     except Exception as exc:
         print(f"Template chemistry conversion failed [{pdbqt_path}]: {exc}")
+        sdf_path.unlink(missing_ok=True)
+        return False
+    return _is_template_sdf_file(sdf_path)
+
+
+def _convert_dynamicbind_sdf(
+    src_sdf: Path,
+    sdf_path: Path,
+    canonical_smiles: str,
+    force: bool,
+) -> bool:
+    """Transfer canonical chemistry onto a DynamicBind rank-1 SDF."""
+    if sdf_path.exists() and not force and _is_template_sdf_file(sdf_path):
+        return True
+    sdf_path.unlink(missing_ok=True)
+    sdf_path.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        fixed = sdf_to_template_mol(src_sdf, canonical_smiles)
+        write_pose_molecule(fixed, sdf_path)
+    except Exception as exc:
+        print(f"Template chemistry conversion failed [{src_sdf}]: {exc}")
         sdf_path.unlink(missing_ok=True)
         return False
     return _is_template_sdf_file(sdf_path)
@@ -304,11 +334,15 @@ def _prepare_rows_for_protein(
             if chosen_pair is None:
                 continue
             chosen_ligand, chosen_receptor = chosen_pair
-            # Keep a stable copy under posebusters/sdf for a unified layout.
             sdf_path = output_sdf_dir / protein / dynamicbind_method_label / f"{ligand}.sdf"
-            sdf_path.parent.mkdir(parents=True, exist_ok=True)
-            if force or not sdf_path.exists():
-                shutil.copy2(chosen_ligand, sdf_path)
+            smiles = smiles_by_ligand.get(ligand)
+            ok = bool(
+                smiles
+                and _convert_dynamicbind_sdf(chosen_ligand, sdf_path, smiles, force)
+            )
+            if not ok:
+                stats["failed_conversions"] += 1
+                continue
             rows_by_method["dynamicbind"].append(
                 {
                     "mol_pred": str(sdf_path),
@@ -473,14 +507,14 @@ def main() -> None:
     parser.add_argument(
         "--dynamicbind-subdir",
         type=str,
-        default="dynamicbind_new",
-        help="DynamicBind subdirectory inside docking/ (default: dynamicbind_new).",
+        default="dynamicbind",
+        help="DynamicBind subdirectory inside docking/ (default: dynamicbind).",
     )
     parser.add_argument(
         "--dynamicbind-method-label",
         type=str,
-        default="dynamicbind_new",
-        help="Method label for dynamicbind rows/output files (default: dynamicbind_new).",
+        default="dynamicbind",
+        help="Method label for dynamicbind rows/output files (default: dynamicbind).",
     )
 
     args = parser.parse_args()

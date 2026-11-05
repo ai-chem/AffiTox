@@ -1,0 +1,2 @@
+canonical_smiles,molecule_chembl_id_keep,molecule_chembl_id_drop,keep_ligand_id,drop_ligand_id,keep_ligand_number,drop_ligand_number,pdb
+CCN(CC)CCCCNc1ncc2cc(-c3cc(OC)cc(OC)c3)c(NC(=O)NC(C)(C)C)nc2n1,CHEMBL189584,CHEMBL189584,ligand_0003,ligand_0004,3,4,4F65

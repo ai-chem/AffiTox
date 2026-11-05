@@ -229,7 +229,7 @@ def plot_nef10_svg(ef: pd.DataFrame, output_path: Path, seed: int = RANDOM_SEED)
         axes[1],
         ef,
         "nEF10_low",
-        f"nEF{FRAC},low (inactives: Ki ≥ 1000 nM)",
+        f"nEF{FRAC},low (low-affinity: Ki ≥ 1000 nM)",
         "B",
         order,
         cmap,

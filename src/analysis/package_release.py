@@ -22,8 +22,13 @@ _EXAMPLE_LIGAND_FILE_RE = re.compile(
 
 
 def is_legacy_dynamicbind_posebusters(path: Path) -> bool:
-    """Pre-rerun DynamicBind CSVs (20 checks). Current files are *_dynamicbind_new.csv."""
-    return path.name.lower().endswith("_dynamicbind.csv")
+    """Superseded 20-check DynamicBind CSVs (renamed *_dynamicbind_old.csv).
+
+    After filter_posebusters_to_10711.py, the active 21-check series is
+    ``*_dynamicbind.csv`` (renamed from ``*_dynamicbind_new.csv``).
+    """
+    name = path.name.lower()
+    return name.endswith("_dynamicbind_old.csv")
 
 _SRC = Path(__file__).resolve().parent.parent
 if str(_SRC) not in sys.path:
@@ -110,7 +115,7 @@ def build_curated_and_maps(base: Path) -> int:
         n += len(curated)
         print(f"curated {pdb} {len(curated)}")
     (curated_dir / "N_panel.txt").write_text(f"{n}\n", encoding="utf-8")
-    print(f"N_panel={n} (ligand_id rows, no SMILES collapse)")
+    print(f"N_panel={n} (curated / merged rows)")
     return n
 
 
@@ -324,7 +329,12 @@ def stage_zenodo_06(base: Path, out: Path, n_panel: int) -> None:
     if tables.is_dir():
         for csv_path in tables.rglob("*.csv"):
             name = csv_path.name.lower()
-            if csv_path.parent.name == "posebuster" or "posebuster" in csv_path.parts:
+            parts_l = {p.lower() for p in csv_path.parts}
+            # Raw PoseBusters CSVs belong in record 05; keep summary tables under
+            # tables/posebusters/. Skip local pre-filter backups.
+            if any(
+                p == "posebuster" or p.startswith("posebuster_backup") for p in parts_l
+            ):
                 continue
             if any(old in name for old in LEGACY_EXAMPLE_PDBS):
                 continue
@@ -562,7 +572,7 @@ def _readme_04(n: int) -> str:
 One CSV per target: `merged_ligands_docking_<pdb>.csv`.
 
 Join key: `(protein_pdb_id, ligand_id)` only. Missing method scores stay empty (never imputed).
-Panel N after ligand_id merge (no SMILES collapse): **{n}**.
+Panel N (curated / merged rows): **{n}**.
 
 Seed: 42 (documented for docking; QVina2 logs may print a different engine seed — see SOFTWARE_REGISTRY.md).
 """
@@ -576,9 +586,9 @@ Full-panel PoseBusters CSVs belong here, not on GitHub.
 GitHub `example/05_posebusters/` holds only the 16 × 5 ligand slice.
 PLAPT has no poses and is excluded.
 
-DynamicBind tables are `posebusters_results_<pdb>_dynamicbind_new.csv` (21 boolean
-checks, including `internal_energy`). Superseded 20-check
-`posebusters_results_<pdb>_dynamicbind.csv` files are not included. 2z5x, 3mjg,
+DynamicBind tables are `posebusters_results_<pdb>_dynamicbind.csv` (21 boolean
+checks, including `internal_energy`; renamed from ``*_dynamicbind_new.csv``).
+Superseded 20-check ``*_dynamicbind_old.csv`` files are not included. 2z5x, 3mjg,
 and 7awe are not in this panel.
 """
 

@@ -27,7 +27,7 @@ PDB_TO_CSV = {
     "5mo4": "ABL1_BCR-ABL_Ki_WT_ChEMBL_693",
     "6gqj": "KIT_Ki_WT_curated_1298",
     "6jok": "PDGFRA_Ki_WT_curated_250",
-    "7awe": "PSMB5_Ki_WT_ChEMBL_88",
+    "5lf3": "PSMB5_Ki_WT_ChEMBL_88",
     "7kk3": "PARP1_Ki_WT_ChEMBL_1075",
 }
 
@@ -46,7 +46,7 @@ PDB_DEPOSITION_YEAR = {
     "5MO4": 2017,
     "6GQJ": 2018,
     "6JOK": 2020,
-    "7AWE": 2021,
+    "5LF3": 2016,
     "7KK3": 2021,
 }
 
@@ -65,13 +65,13 @@ TARGET_LABEL = {
     "5MO4": "ABL1",
     "6GQJ": "c-KIT",
     "6JOK": "PDGFRA",
-    "7AWE": "Immunoproteasome",
+    "5LF3": "PSMB5",
     "7KK3": "PARP1",
 }
 
 # Canonical human UniProt accessions for the AffiTox assay targets
-# (affinity-pair identity). 7AWE is the immunoproteasome crystal used as
-# the PSMB5 surrogate; the ChEMBL assay target is PSMB5 (P28074).
+# (affinity-pair identity). 5LF3 is the PSMB5 surrogate; the ChEMBL assay
+# target is PSMB5 (P28074).
 PDB_TO_UNIPROT = {
     "1G5M": "P10415",
     "2V5Z": "P27338",
@@ -87,7 +87,7 @@ PDB_TO_UNIPROT = {
     "5MO4": "P00519",
     "6GQJ": "P10721",
     "6JOK": "P16234",
-    "7AWE": "P28074",
+    "5LF3": "P28074",
     "7KK3": "P09874",
 }
 

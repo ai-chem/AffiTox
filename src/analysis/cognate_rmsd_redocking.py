@@ -31,6 +31,7 @@ from typing import Dict, List, Optional, Sequence, Tuple
 # None => no usable small-molecule cognate in the AffiTox surrogate PDB.
 COGNATE_RESNAMES: Dict[str, Optional[str]] = {
     "1g5m": None,  # BCL2: Bak-peptide context; no drug-like HETATM in deposited PDB
+    "2v5z": "SAG",  # safinamide (FAD is cofactor)
     "2z5x": "HRM",  # harmine (FAD is cofactor)
     "3eyg": "MI1",
     "3jy9": "JZH",
@@ -44,13 +45,16 @@ COGNATE_RESNAMES: Dict[str, Optional[str]] = {
     "5mo4": "AY7",  # asciminib (allosteric ABL1 pose used in AffiTox)
     "6gqj": "F82",
     "6jok": "B49",
+    "5lf3": "BO2",  # bortezomib in the chain-K site used for the panel box
     "7awe": "S5K",
     "7kk3": "2YQ",
+    "11ue": None,  # PDGFRB kinase surrogate: no co-crystal HETATM in the deposited PDB
 }
 
 SKIP_NOTES: Dict[str, str] = {
     "1g5m": "No drug-like co-crystal HETATM in input/proteins/1g5m.pdb (Bak-peptide context).",
     "3mjg": "Surrogate PDB contains glycans (NAG/NDG) only; no drug-like cognate.",
+    "11ue": "No HETATM records in input/proteins/11ue.pdb; cognate RMSD was not computed.",
 }
 
 
@@ -58,21 +62,69 @@ def _repo_root() -> Path:
     return Path(os.environ.get("TOXAFFINITY_ROOT", Path(__file__).resolve().parents[2]))
 
 
-def extract_hetatm(pdb_path: Path, resname: str, out_path: Path) -> int:
-    """Write HETATM lines for one chain copy of resname (prefer chain A)."""
-    by_chain: Dict[str, List[str]] = {}
+def _het_centroid(lines: Sequence[str]) -> Tuple[float, float, float]:
+    xs, ys, zs = [], [], []
+    for line in lines:
+        if not line.startswith("HETATM"):
+            continue
+        elem = (line[76:78].strip() if len(line) >= 78 else "") or line[12:16].strip()[:1]
+        if elem.upper() == "H":
+            continue
+        xs.append(float(line[30:38]))
+        ys.append(float(line[38:46]))
+        zs.append(float(line[46:54]))
+    if not xs:
+        return (1e9, 1e9, 1e9)
+    return (sum(xs) / len(xs), sum(ys) / len(ys), sum(zs) / len(zs))
+
+
+def extract_hetatm(
+    pdb_path: Path,
+    resname: str,
+    out_path: Path,
+    prefer_center: Optional[Sequence[float]] = None,
+) -> int:
+    """Write HETATM lines for one residue copy of resname.
+
+    Symmetrical assemblies repeat the ligand. A multi-residue PDBQT is not a
+    valid Vina/GNINA ligand. When a docking-box center is given, the copy
+    nearest that center is kept (the site the receptor PDBQT was prepared
+    around). Otherwise chain A is preferred, then the lowest residue number.
+    """
+    by_chain_res: Dict[tuple, List[str]] = {}
     for line in pdb_path.read_text(errors="ignore").splitlines(True):
         if line.startswith("HETATM") and line[17:20].strip() == resname:
             chain = line[21].strip() or "_"
-            by_chain.setdefault(chain, []).append(line)
-    if not by_chain:
+            resseq = line[22:26].strip() or "0"
+            by_chain_res.setdefault((chain, resseq), []).append(line)
+    if not by_chain_res:
         raise RuntimeError(f"No HETATM resname={resname} in {pdb_path}")
-    # Prefer chain A, else the chain with the most atoms
-    if "A" in by_chain:
-        chain = "A"
+    if prefer_center is not None:
+        cx, cy, cz = prefer_center
+
+        def _dist(key: tuple) -> float:
+            x, y, z = _het_centroid(by_chain_res[key])
+            return (x - cx) ** 2 + (y - cy) ** 2 + (z - cz) ** 2
+
+        chain, resseq = min(by_chain_res, key=_dist)
     else:
-        chain = max(by_chain.keys(), key=lambda c: len(by_chain[c]))
-    lines = by_chain[chain]
+        chains = {chain for chain, _resseq in by_chain_res}
+        if "A" in chains:
+            chain = "A"
+        else:
+            chain = max(
+                chains,
+                key=lambda c: sum(len(v) for (ch, _r), v in by_chain_res.items() if ch == c),
+            )
+
+        def _resseq_key(r: str) -> tuple:
+            try:
+                return (0, int(r))
+            except ValueError:
+                return (1, r)
+
+        resseq = min((r for ch, r in by_chain_res if ch == chain), key=_resseq_key)
+    lines = by_chain_res[(chain, resseq)]
     out_path.parent.mkdir(parents=True, exist_ok=True)
     out_path.write_text("".join(lines) + "END\n")
     return len(lines)
@@ -541,8 +593,12 @@ def main(argv: Optional[Sequence[str]] = None) -> int:
             continue
 
         ref_pdb = refs / f"{target}_{resname}.pdb"
+        box_json = root / "processed" / "boxes" / f"{target}.json"
+        prefer_center = None
+        if box_json.exists():
+            prefer_center = json.loads(box_json.read_text())["center"]
         try:
-            n_lines = extract_hetatm(pdb_src, resname, ref_pdb)
+            n_lines = extract_hetatm(pdb_src, resname, ref_pdb, prefer_center=prefer_center)
         except Exception as exc:
             for method in args.methods:
                 rows.append(

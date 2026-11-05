@@ -31,6 +31,13 @@ MIN_LINE_WIDTH_PT = 0.25
 GAP_RATIO = 0.025  # was 0.10; 4× tighter summary-to-body spacing
 SUMMARY_BODY_HSPACE = GAP_RATIO * 5  # combined multi-panel heatmaps (e.g. correlations_combined)
 
+# Fixed article font ladder (pt). Use only these four sizes in manuscript figures.
+FS_PANEL = 12  # panel letters A/B and panel titles
+FS_AXIS = 10  # axis labels / colorbar labels
+FS_TICK = 9  # tick labels / legends
+FS_ANNOT = 8  # heatmap cell annotations / small callouts
+ARTICLE_FONT_SIZES = (FS_PANEL, FS_AXIS, FS_TICK, FS_ANNOT)
+
 # Article diverging palette: blue (negative) → gray/white (0) → salmon (positive).
 # Positions are in colormap space [0, 1] matching data range [-1, +1] with center=0.
 CORRELATION_DIVERGING_STOPS: list[tuple[float, str]] = [
@@ -88,17 +95,21 @@ def apply_style(cfg: AnalysisConfig) -> None:
     plt.rcParams.update(
         {
             "font.family": cfg.font_family,
-            "font.size": 9,
-            "axes.labelsize": 10,
-            "axes.titlesize": 10,
-            "xtick.labelsize": 9,
-            "ytick.labelsize": 9,
+            "font.size": FS_TICK,
+            "axes.labelsize": FS_AXIS,
+            "axes.titlesize": FS_PANEL,
+            "xtick.labelsize": FS_TICK,
+            "ytick.labelsize": FS_TICK,
+            "legend.fontsize": FS_TICK,
             "figure.dpi": cfg.figure_dpi,
             "savefig.dpi": cfg.figure_dpi,
             "svg.fonttype": "none",
             "pdf.fonttype": 42,
             "lines.linewidth": 0.5,
             "patch.linewidth": 0.5,
+            "font.weight": "normal",
+            "axes.labelweight": "normal",
+            "axes.titleweight": "normal",
         }
     )
 
@@ -361,7 +372,7 @@ def plot_heatmap_with_summary_row(
         center=center,
         linewidths=0.5,
         linecolor="white",
-        annot_kws={"size": 9, "color": "black"},
+        annot_kws={"size": FS_ANNOT, "color": "black"},
         cbar_ax=cbar_ax,
         cbar_kws={"label": cbar_label},
     )
@@ -390,7 +401,7 @@ def plot_heatmap_with_summary_row(
     ax_top.tick_params(axis="y", rotation=0)
     ax_bot.tick_params(axis="x", rotation=0)
     ax_bot.tick_params(axis="y", rotation=0)
-    fig.suptitle(title, y=1.02, fontsize=11)
+    fig.suptitle(title, y=1.02, fontsize=FS_PANEL)
     save_figure(fig, path_base)
 
 
@@ -475,7 +486,7 @@ def plot_heatmap_with_summary_col(
         linecolor="white",
         cbar_ax=cbar_ax,
         cbar_kws={"label": cbar_label},
-        annot_kws={"size": 8, "color": "black"},
+        annot_kws={"size": FS_ANNOT, "color": "black"},
     )
 
     sns.heatmap(
@@ -505,7 +516,7 @@ def plot_heatmap_with_summary_col(
         ax_label.tick_params(
             axis="y",
             rotation=y_tick_rotation,
-            labelsize=9,
+            labelsize=FS_TICK,
             pad=2,
             length=0,
             labelleft=False,
@@ -529,7 +540,7 @@ def plot_heatmap_with_summary_col(
     else:
         ax_left.set_ylabel(y_label, rotation=90, labelpad=28)
         ax_left.set_xlabel("")
-        ax_left.tick_params(axis="y", rotation=y_tick_rotation, labelsize=9, pad=4)
+        ax_left.tick_params(axis="y", rotation=y_tick_rotation, labelsize=FS_TICK, pad=4)
         plt.setp(
             ax_left.get_yticklabels(),
             ha="right" if y_tick_rotation == 0 else "center",
@@ -591,7 +602,7 @@ def plot_heatmap_with_summary_col(
             [cb_pos.x1 - two_digit_w, cb_pos.y0, two_digit_w, cb_pos.height]
         )
 
-    fig.suptitle(title, y=1.02, fontsize=11)
+    fig.suptitle(title, y=1.02, fontsize=FS_PANEL)
     save_figure(fig, path_base)
 
 
@@ -648,7 +659,7 @@ def plot_heatmap_with_summary_row_and_col(
         vmax=vmax,
         linewidths=0.3,
         linecolor="white",
-        annot_kws={"size": 8, "color": "black"},
+        annot_kws={"size": FS_ANNOT, "color": "black"},
     )
 
     sns.heatmap(
@@ -707,7 +718,7 @@ def plot_heatmap_with_summary_row_and_col(
     ax_body.tick_params(axis="x", rotation=0)
     ax_body.tick_params(axis="y", left=False, labelleft=False)
 
-    fig.suptitle(title, y=1.02, fontsize=11)
+    fig.suptitle(title, y=1.02, fontsize=FS_PANEL)
     save_figure(fig, path_base)
 
 
@@ -764,7 +775,7 @@ def plot_combined_heatmaps_with_summary_row(
         center=center,
         linewidths=0.5,
         linecolor="white",
-        annot_kws={"size": 6.5, "color": "black"},
+        annot_kws={"size": FS_ANNOT, "color": "black"},
     )
 
     for idx, (title, summary_row, body) in enumerate(panels):
@@ -793,7 +804,7 @@ def plot_combined_heatmaps_with_summary_row(
             **heatmap_kw,
         )
 
-        ax_top.set_title(title, fontsize=11, pad=8)
+        ax_top.set_title(title, fontsize=FS_PANEL, pad=8)
         ax_top.set_xlabel("")
         ax_top.set_ylabel("")
         ax_top.tick_params(axis="x", bottom=False, labelbottom=False)
@@ -812,5 +823,5 @@ def plot_combined_heatmaps_with_summary_row(
             ax_top.tick_params(axis="y", left=False, labelleft=False)
             ax_bot.tick_params(axis="y", left=False, labelleft=False)
 
-    fig.supxlabel(x_label, fontsize=10, y=0.01)
+    fig.supxlabel(x_label, fontsize=FS_AXIS, y=0.01)
     save_figure(fig, path_base)

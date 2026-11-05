@@ -71,7 +71,7 @@ The merge script also maps extra PDB IDs (for example 8zyq/hERG, 1ere/ERalpha) t
 
 Effective \(N\) is complete-case per method (missing docking rows are not imputed).
 
-Frozen panel \(N\) after assigning `ligand_id` (no SMILES collapse) is **11 180**.
+Frozen panel \(N\) (curated / merged rows) is **10 711**.
 Do not freeze 10 497. The ligand_id merge job writes the same count into
 `input/ligands_curated/N_panel.txt` and Zenodo record 04.
 

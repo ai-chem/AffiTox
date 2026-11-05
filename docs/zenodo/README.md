@@ -16,7 +16,7 @@ in the right-hand column. File lists: [`affitox_data_manifest.tsv`](affitox_data
 
 Canonical analysis root after unpack: `analysis/excluding_2z5x_3mjg/`.
 Panel PDB order: 1g5m, 2v5z, 3eyg, 3jy9, 3lxk, 11ue, 4ase, 4f65, 4tz4, 4zau,
-5jkv, 5mo4, 6gqj, 6jok, 5lf3, 7kk3. Panel N after `ligand_id` merge: **11180**.
+5jkv, 5mo4, 6gqj, 6jok, 5lf3, 7kk3. Panel N (curated / merged rows): **10711**.
 
 GPU re-runs of Boltz-2 / DynamicBind are not bit-identical. Record 03 is the
 frozen snapshot; rebuild 04–06 from those files if you need the same numbers.
@@ -70,7 +70,8 @@ Do not query live ChEMBL to reproduce the paper; use these files.
 
 ### 02 — prepared inputs, ligand_id maps, weights (~4.6 GiB)
 
-- DOI: [10.5281/zenodo.23213816](https://doi.org/10.5281/zenodo.23213816)
+- DOI: [10.5281/zenodo.23979597](https://doi.org/10.5281/zenodo.23979597)
+  (replaces [10.5281/zenodo.23213816](https://doi.org/10.5281/zenodo.23213816))
 - File: `02_prepared.zip` → folder `02_prepared/`
 - Inside: `ligands/<pdb>_ligands.csv` (stable `ligand_id`); `id_maps/`;
   `proteins/<pdb>.pdb` and `.pdbqt` (Meeko); `boxes/<pdb>.json`;
@@ -79,7 +80,7 @@ Do not query live ChEMBL to reproduce the paper; use these files.
 - Copy:
 
 ```bash
-curl -L -o 02_prepared.zip 'https://zenodo.org/records/23213816/files/02_prepared.zip?download=1'
+curl -L -o 02_prepared.zip 'https://zenodo.org/records/23979597/files/02_prepared.zip?download=1'
 unzip 02_prepared.zip
 mkdir -p input/ligands_curated processed/proteins processed/boxes \
          processed/id_maps processed/plapt_sequences
@@ -123,14 +124,15 @@ every target.
 
 ### 04 — merged ligand_id tables (~5.3 MiB)
 
-- DOI: [10.5281/zenodo.23214418](https://doi.org/10.5281/zenodo.23214418)
+- DOI: [10.5281/zenodo.23979579](https://doi.org/10.5281/zenodo.23979579)
+  (replaces [10.5281/zenodo.23214418](https://doi.org/10.5281/zenodo.23214418))
 - File: `04_merged.zip` → folder `04_merged/`
 - Inside: one `merged_ligands_docking_<pdb>.csv` per target; `merge_audit.json`;
-  `N_panel.txt` (11180).
+  `N_panel.txt` (10711).
 - Copy:
 
 ```bash
-curl -L -o 04_merged.zip 'https://zenodo.org/records/23214418/files/04_merged.zip?download=1'
+curl -L -o 04_merged.zip 'https://zenodo.org/records/23979579/files/04_merged.zip?download=1'
 unzip 04_merged.zip
 mkdir -p analysis/excluding_2z5x_3mjg/tables
 cp 04_merged/merged_ligands_docking_*.csv analysis/excluding_2z5x_3mjg/tables/
@@ -139,17 +141,17 @@ cp 04_merged/N_panel.txt analysis/excluding_2z5x_3mjg/tables/
 
 ### 05 — PoseBusters tables (~13 MiB)
 
-- DOI: [10.5281/zenodo.23242334](https://doi.org/10.5281/zenodo.23242334)
-  (replaces [10.5281/zenodo.23214420](https://doi.org/10.5281/zenodo.23214420))
+- DOI: [10.5281/zenodo.23979721](https://doi.org/10.5281/zenodo.23979721)
+  (replaces [10.5281/zenodo.23979584](https://doi.org/10.5281/zenodo.23979584))
 - File: `05_posebusters.zip` → folder `05_posebusters/`
 - Inside: `tables/posebusters_results_<pdb>_<method>.csv` for Boltz-2,
-  DynamicBind (`*_dynamicbind_new.csv`, 21 checks including `internal_energy`),
+  DynamicBind (`*_dynamicbind.csv`, 21 checks including `internal_energy`),
   GNINA, QVina2 (no PLAPT). The superseded 20-check `*_dynamicbind.csv` files
   are not included.
 - Copy:
 
 ```bash
-curl -L -o 05_posebusters.zip 'https://zenodo.org/records/23242334/files/05_posebusters.zip?download=1'
+curl -L -o 05_posebusters.zip 'https://zenodo.org/records/23979721/files/05_posebusters.zip?download=1'
 unzip 05_posebusters.zip
 mkdir -p analysis/excluding_2z5x_3mjg/tables/posebuster
 cp 05_posebusters/tables/*.csv analysis/excluding_2z5x_3mjg/tables/posebuster/
@@ -157,8 +159,8 @@ cp 05_posebusters/tables/*.csv analysis/excluding_2z5x_3mjg/tables/posebuster/
 
 ### 06 — metrics tables and PNG figures (~138 MiB)
 
-- DOI: [10.5281/zenodo.23244623](https://doi.org/10.5281/zenodo.23244623)
-  (replaces [10.5281/zenodo.23214430](https://doi.org/10.5281/zenodo.23214430))
+- DOI: [10.5281/zenodo.23979767](https://doi.org/10.5281/zenodo.23979767)
+  (replaces [10.5281/zenodo.23979728](https://doi.org/10.5281/zenodo.23979728))
 - File: `06_metrics_figures.zip` → folder `06_metrics_figures/`
 - Inside: `tables/` (merged CSVs plus `correlations/`, `enrichment/`,
   `inferential/`, PoseBusters pass-count curves on **21** checks);
@@ -167,7 +169,7 @@ cp 05_posebusters/tables/*.csv analysis/excluding_2z5x_3mjg/tables/posebuster/
 
 ```bash
 curl -L -o 06_metrics_figures.zip \
-  'https://zenodo.org/records/23244623/files/06_metrics_figures.zip?download=1'
+  'https://zenodo.org/records/23979767/files/06_metrics_figures.zip?download=1'
 unzip 06_metrics_figures.zip
 mkdir -p analysis/excluding_2z5x_3mjg/tables analysis/excluding_2z5x_3mjg/figures
 cp -a 06_metrics_figures/tables/. analysis/excluding_2z5x_3mjg/tables/

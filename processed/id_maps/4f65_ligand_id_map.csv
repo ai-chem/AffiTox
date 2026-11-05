@@ -2,7 +2,6 @@ pdb_id,ligand_id,molecule_chembl_id,canonical_smiles,csv_row_1based,vina_legacy_
 4f65,ligand_0001,CHEMBL4068509,C=CC(=O)N1CCN(CCCn2c(=O)c(-c3c(Cl)c(OC)cc(OC)c3Cl)cc3cnc(NC)nc32)CC1,1,ligand_1,idx_0,CHEMBL4068509,ligand_0001
 4f65,ligand_0002,CHEMBL4446835,C=CC(=O)Nc1ccc(-n2nc3c(=O)[nH]nc(N)c3c2-c2oc3ccc(C)cc3c2C)cc1,2,ligand_2,idx_1,CHEMBL4446835,ligand_0002
 4f65,ligand_0003,CHEMBL189584,CCN(CC)CCCCNc1ncc2cc(-c3cc(OC)cc(OC)c3)c(NC(=O)NC(C)(C)C)nc2n1,3,ligand_3,idx_2,CHEMBL189584,ligand_0003
-4f65,ligand_0004,CHEMBL189584,CCN(CC)CCCCNc1ncc2cc(-c3cc(OC)cc(OC)c3)c(NC(=O)NC(C)(C)C)nc2n1,4,ligand_4,idx_3,CHEMBL189584,ligand_0004
 4f65,ligand_0005,CHEMBL5751745,CCN(OCCN1CCNCC1)C(=O)c1ccc(N/C(=C2\C(=O)Nc3cc(C(=O)OC)c(C)cc32)c2ccccc2)cc1,5,ligand_5,idx_4,CHEMBL5751745,ligand_0005
 4f65,ligand_0006,CHEMBL5953091,CCN1CCN(CCONC(=O)c2ccc(N/C(=C3\C(=O)Nc4cc(C(=O)OC)c(C)cc43)c3ccccc3)cc2)CC1,6,ligand_6,idx_5,CHEMBL5953091,ligand_0006
 4f65,ligand_0007,CHEMBL5945261,CNC(=O)CN(C)CCNC(=O)c1ccc(N/C(=C2\C(=O)Nc3cc(C(=O)OC)c(C)cc32)c2ccccc2)cc1,7,ligand_7,idx_6,CHEMBL5945261,ligand_0007

@@ -1,0 +1,17 @@
+pdb,n_docked_rows,n_unique_molecule_chembl_id,n_unique_smiles,n_with_any_dock_score,file
+1G5M,252,244,244,252,merged_ligands_docking_pre_dedup_1g5m.csv
+2V5Z,246,213,213,246,merged_ligands_docking_pre_dedup_2v5z.csv
+3EYG,2255,2234,2234,2255,merged_ligands_docking_pre_dedup_3eyg.csv
+3JY9,2027,2014,2014,2027,merged_ligands_docking_pre_dedup_3jy9.csv
+3LXK,786,758,758,786,merged_ligands_docking_pre_dedup_3lxk.csv
+11UE,275,275,275,275,merged_ligands_docking_pre_dedup_11ue.csv
+4ASE,875,851,851,875,merged_ligands_docking_pre_dedup_4ase.csv
+4F65,134,133,133,134,merged_ligands_docking_pre_dedup_4f65.csv
+4TZ4,127,113,113,127,merged_ligands_docking_pre_dedup_4tz4.csv
+4ZAU,251,235,235,251,merged_ligands_docking_pre_dedup_4zau.csv
+5JKV,548,488,488,548,merged_ligands_docking_pre_dedup_5jkv.csv
+5MO4,693,682,682,693,merged_ligands_docking_pre_dedup_5mo4.csv
+6GQJ,1298,1089,1089,1298,merged_ligands_docking_pre_dedup_6gqj.csv
+6JOK,250,250,250,250,merged_ligands_docking_pre_dedup_6jok.csv
+5LF3,88,83,83,88,merged_ligands_docking_pre_dedup_5lf3.csv
+7KK3,1075,1049,1049,1075,merged_ligands_docking_pre_dedup_7kk3.csv

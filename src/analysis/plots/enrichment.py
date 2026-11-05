@@ -12,7 +12,7 @@ from matplotlib.colors import LinearSegmentedColormap, to_hex
 from matplotlib.gridspec import GridSpec
 
 from ..config import AnalysisConfig
-from .style import apply_style, save_figure
+from .style import FS_ANNOT, FS_AXIS, FS_PANEL, FS_TICK, apply_style, save_figure
 
 # Article blue → cyan at nEF = 0.5 (same for every target) → ivory → vermilion.
 # Ivory after 0.5 keeps the 0.5 band from mixing into purple.
@@ -28,7 +28,6 @@ NEF_POINT_CMAP = LinearSegmentedColormap.from_list(
 )
 
 
-PANEL_TITLE_FS = 12
 POINT_COLOR_AT_ZERO = to_hex(NEF_POINT_CMAP(0.0))
 
 
@@ -116,7 +115,7 @@ def _panel_plot(
                 xytext=(x_text, y_text),
                 ha=ha,
                 va="center",
-                fontsize=9,
+                fontsize=FS_ANNOT,
                 alpha=0.9,
                 zorder=5,
                 arrowprops=dict(arrowstyle="-", color="#666666", lw=0.4, shrinkA=0, shrinkB=2),
@@ -133,14 +132,14 @@ def _panel_plot(
         )
 
     ax.set_xticks(x_positions)
-    ax.set_xticklabels(order, fontsize=9)
+    ax.set_xticklabels(order, fontsize=FS_TICK)
     ax.set_ylim(-0.03, 1.03)
-    ax.set_ylabel(ylabel, fontsize=11)
+    ax.set_ylabel(ylabel, fontsize=FS_AXIS)
     ax.grid(axis="y", linestyle="--", alpha=0.35, linewidth=0.7)
     ax.axhline(0.5, color="#666666", linestyle=":", linewidth=1.0, alpha=0.7)
     ax.set_title(
         rf"$\mathbf{{{panel_letter}}}$  {title}",
-        fontsize=PANEL_TITLE_FS,
+        fontsize=FS_PANEL,
         fontweight="normal",
         pad=10,
     )
@@ -216,7 +215,7 @@ def plot_nef_violins(ef: pd.DataFrame, cfg: AnalysisConfig) -> None:
         )
         _panel_plot(
             ax1, ef, cfg, low_col,
-            f"nEF{frac},low (inactives: Ki ≥ 1000 nM)", "B", order,
+            f"nEF{frac},low (low-affinity: Ki ≥ 1000 nM)", "B", order,
             seed=cfg.random_seed + 1, ylabel=f"nEF{frac},low",
         )
         _shift_right_panel_toward_left(fig, ax0, ax1)
