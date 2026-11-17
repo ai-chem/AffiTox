@@ -57,7 +57,7 @@ RECORDS = {
         "why": "PoseBusters CSVs filtered/reaggregated to the N=10711 panel.",
     },
     "06": {
-        "parent_id": 23979728,
+        "parent_id": 24250857,
         "zip": "06_metrics_figures.zip",
         "title": "AffiTox: metrics tables and PNG figures (record 06)",
         "why": "Metrics/figures rebuilt for the N=10711 panel (21-check PoseBusters curves).",

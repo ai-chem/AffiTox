@@ -82,7 +82,7 @@ NEW_RECORDS = [
     },
     {
         "id": "06_metrics_figures",
-        "deposition_id": 23979767,
+        "deposition_id": 24250857,
         "title": "AffiTox: metrics tables and PNG figures (record 06)",
         "pdbs": PANEL,
     },
@@ -155,7 +155,7 @@ def refresh_06(client: Client) -> None:
     zip_path = ROOT / "release" / "zenodo" / "payloads" / "06_metrics_figures.zip"
     if not zip_path.is_file():
         raise SystemExit(f"missing {zip_path}")
-    dep = get_dep(client, 23979767)
+    dep = get_dep(client, 24250857)
     if dep.get("submitted"):
         print("06 already published; skip zip replace")
         return
